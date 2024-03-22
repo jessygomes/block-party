@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@font-face {
+  font-family: "Bison-Bold";
+  src: url("../../public/font/Bison-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Bold";
+  src: url("../../public/font/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Light";
+  src: url("../../public/font/Rubik-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Medium";
+  src: url("../../public/font/Rubik-Medium.ttf") format("truetype");
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +47,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
