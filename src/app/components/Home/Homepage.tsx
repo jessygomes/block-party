@@ -12,7 +12,6 @@ export default function Homepage() {
       <section className={styles.homepageContainer}>
         <div className="w-full absolute inset-0 h-[60vh]">
           <BackgroundGradientAnimation>
-            <h1 className="text-white text-[2rem]  ">BLOCKPARTY</h1>
             <div className="absolute z-10 mt-[2rem] w-full h-full flex flex-col justify-center items-center top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white gap-[0.5rem]">
               <Image
                 className={styles.logo}
