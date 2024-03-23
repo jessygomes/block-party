@@ -3,7 +3,7 @@
   width: 100vw;
 }
 
-.homepageContent {
+/* .homepageContent {
   margin-top: 2rem;
   z-index: 2;
   position: absolute;
@@ -19,20 +19,21 @@
   text-align: center;
   color: white;
   gap: 0.5rem;
-}
-.logo {
+} */
+
+/* .logo {
   width: 15rem;
   height: 15rem;
-}
-.date {
+} */
+/* .date {
   font-size: 2.5rem;
   letter-spacing: 0.39rem;
   font-weight: 800;
   text-align: center;
   width: 15rem;
   font-family: "Bison-Bold";
-}
-.btn {
+} */
+/* .btn {
   background-color: #a3dabb;
   width: 15rem;
   font-size: 2rem;
@@ -46,7 +47,7 @@
 .btn:hover {
   transition: ease-in-out 0.3s;
   background-color: #fa798f;
-}
+} */
 
 .description {
   padding: 2rem 0;
@@ -55,11 +56,11 @@
   width: 100vw;
   color: white;
 }
-.titlepage {
+/* .titlepage {
   font-size: 1.8rem;
   font-weight: 800;
   font-family: "Rubik-Bold";
-}
+} */
 .download {
   font-size: 0.9rem;
   font-weight: 400;
@@ -73,5 +74,5 @@
 }
 
 .artistes {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }

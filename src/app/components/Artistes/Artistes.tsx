@@ -60,7 +60,9 @@ export default function Artistes() {
   return (
     <div className="">
       <section className="">
-        <h2 className=" text-center font-bison text-[3rem]">Line-up & DJ</h2>
+        <h2 className=" text-center font-bison text-[3rem] text-[#231f20]">
+          Line-up & DJ
+        </h2>
         <div className="mt-[2rem] flex gap-[0.5rem] px-[0.1rem] md:px-[2rem] lg:px-[25rem] flex-wrap justify-center">
           {artistes.map((artiste) => (
             <Link href={artiste.link} key={artiste.name}>

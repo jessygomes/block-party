@@ -3,7 +3,7 @@
   top: 0;
   z-index: 50;
   transition: all 0.3s ease;
-  padding: 2rem 1rem 1rem;
+  padding: 1rem 1rem 1rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
 }
 .scrolled {
   transition: all 0.3s ease;
-  background-color: #fa798edb;
+  background-color: #231f207b;
 }
 
 .nav {
@@ -54,6 +54,25 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    transition: all 0.3s ease;
+    padding: 0.5rem 3rem 0.5rem;
+    margin-top: 1.5rem;
+    width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  .scrolled {
+    transition: all 0.3s ease;
+    background-color: #231f205c;
+    border-radius: 50rem;
+  }
+
   .nav__menuBar {
     display: flex;
     flex-direction: column;
@@ -64,7 +83,7 @@
     width: 40px;
     height: 0.2rem;
     background-color: #fff;
-    border-radius: 1px;
+    border-radius: 10rem;
     z-index: 10;
   }
   .nav__menuList {
