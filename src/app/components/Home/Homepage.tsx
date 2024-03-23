@@ -6,6 +6,7 @@ import { BackgroundGradientAnimation } from "../UI/background-gradient-animation
 import Image from "next/image";
 import Link from "next/link";
 import Artistes from "../Artistes/Artistes";
+import Playlist from "../Playlist/Playlist";
 
 export default function Homepage() {
   return (
@@ -43,6 +44,9 @@ export default function Homepage() {
       </section>
       <div className={styles.artistes}>
         <Artistes />
+      </div>
+      <div className={styles.artistes}>
+        <Playlist />
       </div>
     </div>
   );

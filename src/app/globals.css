@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+.gradient-bg {
+  background: linear-gradient(90deg, #ef792a76 0%, #f9c1297b 100%);
+}
+.gradient-bg:hover {
+  background: linear-gradient(90deg, #f9c1297b 0%, #ef792a76 100%);
+}
+
 @font-face {
   font-family: "Bison-Bold";
   src: url("../../public/font/Bison-Bold.ttf") format("truetype");
@@ -23,6 +30,28 @@
 @font-face {
   font-family: "Rubik-Medium";
   src: url("../../public/font/Rubik-Medium.ttf") format("truetype");
+}
+
+.mySwiper {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  border-radius: 1rem;
+}
+
+/*! MOBILE */
+@media screen and (max-width: 767px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
 }
 
 /* :root {
