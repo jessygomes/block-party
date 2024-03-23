@@ -91,6 +91,7 @@ export default function Navbar() {
               width={300}
               height={300}
               alt="Fresque logo"
+              onClick={() => setNavActive(!navActive)}
             />{" "}
           </Link>
 

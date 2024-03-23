@@ -22,9 +22,6 @@
   flex-direction: column;
   justify-content: center;
 }
-
-.nav__menuBar {
-}
 .nav__menuList {
   display: flex;
   align-items: center;
