@@ -61,10 +61,10 @@ export default function Artistes() {
     <div className="">
       <section className="">
         <h2 className=" text-center font-bison text-[3rem]">Line-up & DJ</h2>
-        <div className="mt-[2rem] flex gap-[0.5rem] px-[25rem] flex-wrap justify-center">
+        <div className="mt-[2rem] flex gap-[0.5rem] px-[0.1rem] md:px-[2rem] lg:px-[25rem] flex-wrap justify-center">
           {artistes.map((artiste) => (
             <Link href={artiste.link} key={artiste.name}>
-              <article className="w-[15rem] h-[20rem] relative">
+              <article className="w-[10.5rem] h-[15rem] sm:w-[15rem] sm:h-[20rem] relative">
                 <Image
                   className=" object-cover w-full h-full rounded-1rem"
                   src={artiste.image}
