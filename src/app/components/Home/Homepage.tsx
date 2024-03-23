@@ -9,11 +9,11 @@ import Artistes from "../Artistes/Artistes";
 
 export default function Homepage() {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
       <section className={styles.homepageContainer}>
-        <div className="w-[100vw] inset-0 h-[60vh]">
+        <div className="">
           <BackgroundGradientAnimation>
-            <div className="absolute z-10 mt-[2rem] w-full h-full flex flex-col justify-center items-center top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white gap-[0.5rem]">
+            <div className="absolute z-10 mt-[2rem] w-full max-h-[100vh] flex flex-col justify-center items-center top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white gap-[0.5rem]">
               <Image
                 className={styles.logo}
                 src="/images/LOGO_BLANC.png"
@@ -41,7 +41,7 @@ export default function Homepage() {
           </div>
         </div>
       </section>
-      <div className=" bg-green-400 mt-72">
+      <div className={styles.artistes}>
         <Artistes />
       </div>
     </div>

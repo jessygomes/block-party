@@ -15,7 +15,7 @@ const config: Config = {
         rubikLight: ["Rubik-Light", "sans-serif"],
       },
       boxShadow: {
-        "3xl": "0px 10px 25.1px 23px rgba(0, 0, 0, 0.90);",
+        "3xl": "0px 10px 25px 23px rgba(0, 0, 0, 0.90);",
       },
       animation: {
         first: "moveVertical 30s ease infinite",

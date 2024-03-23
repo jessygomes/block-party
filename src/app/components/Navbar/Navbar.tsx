@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 const itemNavbar = [
   {
@@ -10,15 +11,15 @@ const itemNavbar = [
     link: "/quisommesnous",
   },
   {
-    text: "Infos Pratiques",
-    link: "/infospratiques",
-  },
-  {
     text: "Nos Partenaires",
     link: "/nospartenaires",
   },
   {
-    text: "Contact",
+    text: "Infos Pratiques",
+    link: "/infospratiques",
+  },
+  {
+    text: "Contactez-nous",
     link: "/contact",
   },
 ];
@@ -29,16 +30,13 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 0;
+      const isScrolled = window.scrollY > 500;
       if (isScrolled !== scrolled) {
         setScrolled(!scrolled);
       }
     };
-
     window.addEventListener("scroll", handleScroll, { passive: true });
-
     return () => {
-      // cleanup
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
@@ -62,7 +60,41 @@ export default function Navbar() {
             styles.nav__menuList
           }`}
         >
-          {itemNavbar.map((item, index) => {
+          {itemNavbar.slice(0, itemNavbar.length / 2).map((item, index) => {
+            const active =
+              item.link === "/"
+                ? pathname === "/"
+                : pathname.startsWith(item.link);
+            return (
+              <div
+                key={index}
+                onClick={() => {
+                  setNavActive(false);
+                }}
+              >
+                <Link
+                  href={item.link}
+                  className={`${styles.nav__item} ${
+                    active ? styles.activeLink : ""
+                  }`}
+                >
+                  {item.text}
+                </Link>
+              </div>
+            );
+          })}
+
+          <Link href="/">
+            <Image
+              className={styles.headerLogo}
+              src="/images/MONO_BLANC.png"
+              width={300}
+              height={300}
+              alt="Fresque logo"
+            />{" "}
+          </Link>
+
+          {itemNavbar.slice(itemNavbar.length / 2).map((item, index) => {
             const active =
               item.link === "/"
                 ? pathname === "/"

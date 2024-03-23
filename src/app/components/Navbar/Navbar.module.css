@@ -3,26 +3,40 @@
   top: 0;
   z-index: 50;
   transition: all 0.3s ease;
+  padding: 2rem 1rem 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
 }
 .scrolled {
   transition: all 0.3s ease;
-  /* background-color: #19161ebb; */
-  border-radius: 50rem;
-  box-shadow: 0 0 10px #ffffff;
+  background-color: #fa798edb;
 }
 
 .nav {
   font-family: "Bison-Bold";
   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav__menuBar {
 }
 .nav__menuList {
   display: flex;
+  align-items: center;
   gap: 2.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.headerLogo {
+  width: 1.4rem;
+  height: 2rem;
+  margin: 0 2rem;
 }
 
 .nav__item {
