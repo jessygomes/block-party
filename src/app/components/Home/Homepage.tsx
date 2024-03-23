@@ -5,12 +5,13 @@ import shadergradient3 from "../../../../videos/shadergradient3.webm";
 import { BackgroundGradientAnimation } from "../UI/background-gradient-animation";
 import Image from "next/image";
 import Link from "next/link";
+import Artistes from "../Artistes/Artistes";
 
 export default function Homepage() {
   return (
     <div>
       <section className={styles.homepageContainer}>
-        <div className="w-full absolute inset-0 h-[60vh]">
+        <div className="w-[100vw] inset-0 h-[60vh]">
           <BackgroundGradientAnimation>
             <div className="absolute z-10 mt-[2rem] w-full h-full flex flex-col justify-center items-center top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white gap-[0.5rem]">
               <Image
@@ -40,6 +41,9 @@ export default function Homepage() {
           </div>
         </div>
       </section>
+      <div className=" bg-green-400 mt-72">
+        <Artistes />
+      </div>
     </div>
   );
 }
