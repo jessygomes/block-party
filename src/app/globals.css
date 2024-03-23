@@ -9,11 +9,11 @@
 }
 
 .gradient-bg {
-  background: linear-gradient(90deg, #ef792a76 0%, #f9c1297b 100%);
+  background: linear-gradient(90deg, #ef792a 0%, #f9c129 100%);
 }
-.gradient-bg:hover {
+/* .gradient-bg:hover {
   background: linear-gradient(90deg, #f9c1297b 0%, #ef792a76 100%);
-}
+} */
 
 @font-face {
   font-family: "Bison-Bold";

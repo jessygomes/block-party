@@ -1,17 +1,16 @@
 import React from "react";
 import styles from "./Homepage.module.css";
-// import NextVideo from "next-video";
-import shadergradient3 from "../../../../videos/shadergradient3.webm";
 import { BackgroundGradientAnimation } from "../UI/background-gradient-animation";
 import Image from "next/image";
 import Link from "next/link";
 import Artistes from "../Artistes/Artistes";
 import Playlist from "../Playlist/Playlist";
+import AnimationEtStand from "../AnimationEtStand/AnimationEtStand";
 
 export default function Homepage() {
   return (
     <div className="w-full overflow-hidden">
-      <section className={styles.homepageContainer}>
+      <section className="">
         <div className="">
           <BackgroundGradientAnimation>
             <div className="absolute z-10 mt-[2rem] w-full max-h-[100vh] flex flex-col justify-center items-center top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white gap-[0.5rem]">
@@ -27,7 +26,8 @@ export default function Homepage() {
               </p>
               <Link
                 className="w-[12rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out"
-                href="/"
+                href="https://www.lastrolabe.org/agenda/"
+                target="_blank"
               >
                 PREND TA PLACE !
               </Link>
@@ -43,18 +43,26 @@ export default function Homepage() {
               qu&apos;est Block Party, l&apos;endroit, les horaires, le lieu
               etc. + si nécessaire
             </p> */}
-            <Link href="/" className={styles.download}>
+            <a
+              href="/images/MONO_BLANC.png"
+              download={true}
+              className={styles.download}
+            >
               Télécharger la plaquette d&apos;informations
-            </Link>
+            </a>
           </div>
         </div>
       </section>
-      <div className={styles.artistes}>
+      <div className="mt-[2rem]">
         <Artistes />
       </div>
-      <div className={styles.artistes}>
+      <div className="mt-[2rem]">
         <Playlist />
       </div>
+      <div className="mt-[2rem]">
+        <AnimationEtStand />
+      </div>
+      <div className="mt-[3rem]"></div>
     </div>
   );
 }
