@@ -1,9 +1,12 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { motion, useTransform, useScroll } from "framer-motion";
+import React from "react";
 
-export default function Artistes() {
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export default function page({ params }: Props) {
   const artistes = [
     {
       id: 1,
@@ -106,34 +109,28 @@ export default function Artistes() {
     },
   ];
 
+  const artist = artistes.find(
+    (artiste) => String(artiste.slug) === String(params.slug)
+  );
+  console.log(artist);
+
   return (
-    <div className="">
-      <section className="">
-        <h2 className=" text-center font-bison text-[3rem] text-[#231f20]">
-          Line-up & DJ
-        </h2>
-        <div className="mt-[2rem] flex gap-[0.5rem] flex-wrap justify-center max-w-[50rem] mx-auto">
-          {artistes.map((artiste) => (
-            <Link href={artiste.link} key={artiste.name}>
-              <article className="w-[10.5rem] h-[15rem] sm:w-[15rem] sm:h-[20rem] relative">
-                <Image
-                  className=" object-cover w-full h-full rounded-1rem"
-                  src={artiste.image}
-                  width={2000}
-                  height={1000}
-                  alt="Fresque logo"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-50 rounded-1rem flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-200">
-                  <p className="text-white font-rubikBold">En savoir plus</p>
-                </div>
-                <button className="absolute w-full bottom-0 text-[1.5rem] rounded-1remartiste p-[1rem] text-center text-white font-rubikBold">
-                  {artiste.name}
-                </button>
-              </article>
-            </Link>
-          ))}
-        </div>
-      </section>
+    <div>
+      C&apos;est la page d&apos;artistes : {params.slug}
+      <div>
+        {artist ? (
+          <section>
+            <h1>{artist.name}</h1>
+            {/* <img src={artist.image} alt={artist.name} /> */}
+            <p>{artist.description}</p>
+            <a href={artist.youtube}>Youtube</a>
+            <a href={artist.instagram}>Instagram</a>
+            <a href={artist.stream}>Spotify</a>
+          </section>
+        ) : (
+          <p>Artiste non trouvé</p>
+        )}
+      </div>
     </div>
   );
 }
