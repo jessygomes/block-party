@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Playlist() {
   return (
     <div className="">
-      <section className="py-[2rem] sm:px-[2rem] lg:px-[20rem] gradient-bg flex flex-col justify-center items-center text-center gap-[1rem]">
+      <section className="py-[2rem] w-[95%] lg:w-[70%] mx-auto rounded-1rem sm:px-[2rem] lg:px-[5rem] gradient-bg flex flex-col justify-center items-center text-center gap-[1rem]">
         {/* <h2 className=" text-center font-bison text-[3rem] text-[#fff]">
           BLOCKPARTY PLAYLIST
         </h2> */}

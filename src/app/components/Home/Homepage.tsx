@@ -6,6 +6,7 @@ import Link from "next/link";
 import Artistes from "../Artistes/Artistes";
 import Playlist from "../Playlist/Playlist";
 import AnimationEtStand from "../AnimationEtStand/AnimationEtStand";
+import Footer from "@/app/Footer/Footer";
 
 export default function Homepage() {
   return (
@@ -56,13 +57,15 @@ export default function Homepage() {
       <div className="mt-[2rem]">
         <Artistes />
       </div>
-      <div className="mt-[2rem]">
+      <div className="mt-[3.5rem]">
         <Playlist />
       </div>
       <div className="mt-[2rem]">
         <AnimationEtStand />
       </div>
-      <div className="mt-[3rem]"></div>
+      <div className="mt-[3rem]">
+        <Footer />
+      </div>
     </div>
   );
 }
