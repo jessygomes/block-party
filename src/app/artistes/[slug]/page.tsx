@@ -135,7 +135,7 @@ export default function page({ params }: Props) {
     <div>
       <div className="h-[10rem] gradient-bg flex justify-center items-end">
         <h1 className="text-white pt-[2rem]  pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
-          {artist.name}
+          {artist?.name ?? "Default Artist Name"}
         </h1>
       </div>
       <div className="mt-[2rem] px-[1rem] lg:w-[70%] mx-auto lg:px-[10rem] ">
@@ -214,7 +214,7 @@ export default function page({ params }: Props) {
             className="w-[100%] h-[15rem] sm:w-[90%] sm:h-[30rem] lg:w-[70%] mx-auto rounded-1rem"
             width="560"
             height="315"
-            src={`${artist.clip}?modestbranding=1&rel=0&showinfo=0&controls=0`}
+            src={`${artist?.clip}?modestbranding=1&rel=0&showinfo=0&controls=0`}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
             allowFullScreen
