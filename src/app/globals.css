@@ -32,16 +32,11 @@
   src: url("../../public/font/Rubik-Medium.ttf") format("truetype");
 }
 
-.mySwiper {
-  width: 100vw;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.bw-on-hover {
+  transition: filter 0.5s ease-in-out;
 }
-
-.swiper-slide {
-  border-radius: 1rem;
+.bw-on-hover:hover {
+  filter: grayscale(100%);
 }
 
 /*! MOBILE */
