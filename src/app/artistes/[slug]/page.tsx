@@ -8,7 +8,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Footer from "@/app/Footer/Footer";
-import ReactPlayer from "react-player";
 
 type Props = {
   params: {
