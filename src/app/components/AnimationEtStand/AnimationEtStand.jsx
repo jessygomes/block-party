@@ -18,14 +18,14 @@ export default function AnimationEtStand() {
             inscriptions etc.)
           </p>
           <Link
-            className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[15rem] sm:text-[1rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
+            className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[20rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
             href="/"
           >
             Infos & Inscription
           </Link>
           <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem]">
             <Image
-              className=" object-cover w-full h-full rounded-1rem"
+              className=" object-cover w-full h-full"
               src="/images/thibaut-burckel-emSBEruFpH4-unsplash.jpg"
               width={2000}
               height={1000}
@@ -45,14 +45,14 @@ export default function AnimationEtStand() {
             inscriptions etc.)
           </p>
           <Link
-            className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[15rem] sm:text-[1rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
+            className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[17rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
             href="/"
           >
             Voir les stands
           </Link>
           <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem]">
             <Image
-              className=" object-cover w-full h-full rounded-1rem"
+              className=" object-cover w-full h-full"
               src="/images/jon-tyson-U3FPDpXQjCY-unsplash.jpg"
               width={2000}
               height={1000}

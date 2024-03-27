@@ -126,7 +126,7 @@ export default function Artistes() {
             <Link href={artiste.link} key={artiste.name}>
               <article className="w-[10.5rem] h-[15rem] sm:w-[15rem] sm:h-[20rem] relative">
                 <Image
-                  className=" object-cover w-full h-full rounded-1rem"
+                  className=" object-cover w-full h-full"
                   src={artiste.image}
                   width={2000}
                   height={1000}

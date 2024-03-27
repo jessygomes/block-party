@@ -8,19 +8,19 @@ import Image from "next/image";
 const itemNavbar = [
   {
     text: "Qui sommes-nous ?",
-    link: "/quisommesnous",
+    link: "/qui-sommes-nous",
   },
   {
     text: "Nos Partenaires",
-    link: "/nospartenaires",
+    link: "/nos-partenaires",
   },
   {
     text: "Infos Pratiques",
-    link: "/infospratiques",
+    link: "/infos-pratiques",
   },
   {
     text: "Contactez-nous",
-    link: "/contact",
+    link: "/contactez-nous",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 500;
+      const isScrolled = window.scrollY > 50;
       if (isScrolled !== scrolled) {
         setScrolled(!scrolled);
       }

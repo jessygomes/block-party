@@ -7,7 +7,7 @@ import {
   faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
-import Footer from "@/app/Footer/Footer";
+import Footer from "@/app/components/Footer/Footer";
 
 type Props = {
   params: {
@@ -221,7 +221,6 @@ export default function page({ params }: Props) {
           ></iframe>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
