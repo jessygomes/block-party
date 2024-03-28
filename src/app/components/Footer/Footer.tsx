@@ -27,7 +27,7 @@ export default function Footer() {
         <div>
           <h2 className=" font-bison text-[1.5rem] mb-[1rem]">Suivez-Nous</h2>
           <div className="flex flex-wrap flex-row justify-center items-center gap-[1rem]">
-            <Link href="https://www.instagram.com/blockpartyorleans/">
+            <Link href="https://www.instagram.com/blockparty.festival?igsh=d3cwbmxhODBpOG04">
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"

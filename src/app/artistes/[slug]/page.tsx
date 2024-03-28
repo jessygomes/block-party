@@ -7,7 +7,6 @@ import {
   faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
-import Footer from "@/app/components/Footer/Footer";
 
 type Props = {
   params: {
@@ -23,9 +22,9 @@ export default function page({ params }: Props) {
       name: "RAD CARTIER",
       image: "/images/rad_12.jpg",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      youtube: "https://www.youtube.com/watch?v=9bZkp7q19f0",
-      clip: "https://www.youtube.com/watch?v=8xh3WYZz8yM",
-      instagram: "https://www.instagram.com/",
+      youtube: "https://www.youtube.com/@radcartier7267",
+      clip: "8xh3WYZz8yM",
+      instagram: "https://www.instagram.com/rad.cartier?igsh=dmQ1d3locDF6Mmdz",
       stream: "https://www.spotify.tv/",
       link: "/artistes/rad-cartier",
     },
@@ -43,15 +42,16 @@ export default function page({ params }: Props) {
     },
     {
       id: 3,
-      slug: "taylor",
-      name: "ARTISTE NAME",
+      slug: "partymore",
+      name: "PARTYMORE",
       image: "/images/taylor-NeTf7NGXrtc-unsplash.jpg",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      youtube: "https://www.youtube.com/watch?v=9bZkp7q19f0",
-      clip: "https://www.youtube.com/watch?v=8xh3WYZz8yM",
-      instagram: "https://www.instagram.com/",
+      youtube: "https://www.youtube.com/@Partymore",
+      clip: "9B7G6TglS18",
+      instagram:
+        "https://www.instagram.com/jesuispartymore?igsh=MWdlNmF3c3Fpc3c2MQ==",
       stream: "https://www.spotify.tv/",
-      link: "/artistes/taylor",
+      link: "/artistes/partymore",
     },
     {
       id: 4,
@@ -91,27 +91,28 @@ export default function page({ params }: Props) {
     },
     {
       id: 7,
-      slug: "curtis-potvin",
-      name: "ARTISTE NAME",
+      slug: "soma-exe",
+      name: "SOMA EXE",
       image: "/images/curtis-potvin-XBqp-UxhCVs-unsplash.jpg",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      youtube: "https://www.youtube.com/watch?v=9bZkp7q19f0",
-      clip: "https://www.youtube.com/watch?v=8xh3WYZz8yM",
-      instagram: "https://www.instagram.com/",
+      youtube: "https://www.youtube.com/@Somaexe",
+      clip: "sVkWR44VCb0",
+      instagram: "https://www.instagram.com/soma_exe?igsh=MTVvMGQ0NDl0OGFpdg==",
       stream: "https://www.spotify.tv/",
-      link: "/artistes/curtis-potvin",
+      link: "/artistes/soma-exe",
     },
     {
       id: 8,
-      slug: "nate-johnston",
-      name: "ARTISTE NAME",
+      slug: "anagramms",
+      name: "ANAGRAMMS",
       image: "/images/nate-johnston-mpLbR8NdVs8-unsplash.jpg",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      youtube: "https://www.youtube.com/watch?v=9bZkp7q19f0",
-      clip: "https://www.youtube.com/watch?v=8xh3WYZz8yM",
-      instagram: "https://www.instagram.com/",
+      youtube: "https://www.youtube.com/channel/UCDQ0V1t3hFle1t5RckM8NWA",
+      clip: "Q_bmMOKdgvM",
+      instagram:
+        "https://www.instagram.com/anagramms?igsh=MTRmeWZ4c2dpYmRjYw==",
       stream: "https://www.spotify.tv/",
-      link: "/artistes/nate-johnston",
+      link: "/artistes/anagramms",
     },
     {
       id: 9,
@@ -137,6 +138,13 @@ export default function page({ params }: Props) {
         <h1 className="text-white pt-[2rem]  pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
           {artist?.name ?? "Default Artist Name"}
         </h1>
+        <Image
+          className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
+          src="/images/FRESQUE_LOGO.png"
+          width={1000}
+          height={1000}
+          alt="Fresque logo"
+        />
       </div>
       <div className="mt-[2rem] px-[1rem] lg:w-[70%] mx-auto lg:px-[10rem] ">
         {artist ? (
@@ -153,7 +161,7 @@ export default function page({ params }: Props) {
             <div className="flex flex-row gap-[1rem] text-[#a3dabb]">
               <Link
                 target="_blank"
-                href="https://www.instagram.com/blockpartyorleans/"
+                href={artist.instagram}
                 className="flex justify-center items-center"
               >
                 <FontAwesomeIcon
@@ -165,7 +173,7 @@ export default function page({ params }: Props) {
               <Link
                 className="flex justify-center items-center"
                 target="_blank"
-                href="https://www.instagram.com/blockpartyorleans/"
+                href={artist.youtube}
               >
                 <FontAwesomeIcon
                   icon={faYoutube}
@@ -211,10 +219,10 @@ export default function page({ params }: Props) {
         )}
         <div className="relative pb-[3rem] pt-[1rem] sm:mt-[1rem]">
           <iframe
-            className="w-[100%] h-[15rem] sm:w-[90%] sm:h-[30rem] lg:w-[70%] mx-auto rounded-1rem"
+            className="w-[100%] h-[15rem] sm:w-[90%] sm:h-[25rem] lg:w-[100%] mx-auto rounded-1rem"
             width="560"
             height="315"
-            src={`${artist?.clip}?modestbranding=1&rel=0&showinfo=0&controls=0`}
+            src={`https://www.youtube.com/embed/${artist?.clip}`}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
             allowFullScreen
