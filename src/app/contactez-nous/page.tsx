@@ -1,5 +1,6 @@
 "use client";
 import emailjs from "@emailjs/browser";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Contact() {
@@ -13,18 +14,20 @@ export default function Contact() {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
         "service_2wk87pr",
         "template_u9m00rn",
-        e.target,
+        e.currentTarget,
         "OQpdfRliSb-itPKwp"
       )
       .then(
@@ -50,10 +53,17 @@ export default function Contact() {
 
   return (
     <div>
-      <div className="h-[10rem] gradient-bg flex justify-center items-end">
-        <h1 className="text-white pt-[2rem]  pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
+      <div className="h-[10rem] w-full gradient-bg  flex justify-center items-end">
+        <h1 className="text-white pt-[2rem] pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
           CONTACTEZ-NOUS
         </h1>
+        <Image
+          className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
+          src="/images/FRESQUE_LOGO.png"
+          width={1000}
+          height={1000}
+          alt="Fresque logo"
+        />
       </div>
       <div className="bg-[#231f20] h-[3rem]"></div>
       <section className=" mt-[3rem] px-[1rem] flex flex-col sm:flex-wrap justify-center items-center gap-[2rem] sm:gap-[1.5rem] sm:px-[10rem] lg:px-[15rem]">
@@ -82,8 +92,8 @@ export default function Contact() {
               className="px-[2rem] py-[0.3rem] w-[20rem] md:w-[30rem] md:py-[0.5rem] bg-[#231f20] bg-opacity-10 text-[#231f20] text-center rounded-1rem focus:outline-none focus:border-[#fa798f] transition-all duration-300 ease-in-out"
               onChange={handleChange}
               value={form.name}
-              minLength="2"
-              maxLength="30"
+              minLength={2}
+              maxLength={30}
               required
             />
           </div>
@@ -96,8 +106,8 @@ export default function Contact() {
               className="px-[2rem] py-[0.3rem] w-[20rem] md:w-[30rem] md:py-[0.5rem] bg-[#231f20] bg-opacity-10 text-[#231f20] text-center rounded-1rem focus:outline-none focus:border-[#fa798f] transition-all duration-300 ease-in-out"
               onChange={handleChange}
               value={form.fonction}
-              minLength="2"
-              maxLength="20"
+              minLength={2}
+              maxLength={20}
             />
           </div>
           <div>
@@ -109,8 +119,8 @@ export default function Contact() {
               className="px-[2rem] py-[0.3rem] w-[20rem] md:w-[30rem] md:py-[0.5rem] bg-[#231f20] bg-opacity-10 text-[#231f20] text-center rounded-1rem focus:outline-none focus:border-[#fa798f] transition-all duration-300 ease-in-out"
               onChange={handleChange}
               value={form.objet}
-              minLength="2"
-              maxLength="20"
+              minLength={2}
+              maxLength={20}
               required
             />
           </div>
@@ -135,8 +145,8 @@ export default function Contact() {
               onChange={handleChange}
               value={form.message}
               required
-              minLength="2"
-              maxLength="350"
+              minLength={2}
+              maxLength={350}
             />
           </div>
           <button

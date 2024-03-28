@@ -19,7 +19,7 @@ export default function AnimationEtStand() {
           </p>
           <Link
             className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[20rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
-            href="/"
+            href="/nos-animations"
           >
             Infos & Inscription
           </Link>
@@ -46,7 +46,7 @@ export default function AnimationEtStand() {
           </p>
           <Link
             className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[17rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
-            href="/"
+            href="/stand-expos"
           >
             Voir les stands
           </Link>

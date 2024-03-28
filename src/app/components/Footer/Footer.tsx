@@ -63,7 +63,17 @@ export default function Footer() {
             Liens utiles
           </h2>
           <div className="flex flex-col gap-[1rem]">
-            <Link href="/infos-pratique">
+            <Link href="/nos-animations">
+              <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
+                Nos Animations
+              </h3>
+            </Link>
+            <Link href="/stand-expos">
+              <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
+                Stands & Expositions
+              </h3>
+            </Link>
+            <Link href="/infos-pratiques">
               <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
                 Infos Pratique
               </h3>

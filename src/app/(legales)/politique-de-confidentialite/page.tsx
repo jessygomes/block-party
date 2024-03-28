@@ -1,11 +1,12 @@
 import Image from "next/image";
+import React from "react";
 
-export default function InfosPratque() {
+export default function page() {
   return (
     <div>
       <div className="h-[10rem] w-full gradient-bg  flex justify-center items-end">
         <h1 className="text-white pt-[2rem] pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
-          INFOS PRATIQUES
+          POLITIQUE DE CONFIDENTIALITE
         </h1>
         <Image
           className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
