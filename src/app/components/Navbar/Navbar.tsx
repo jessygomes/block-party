@@ -87,7 +87,7 @@ export default function Navbar() {
           <Link href="/">
             <Image
               className={styles.headerLogo}
-              src="/images/MONO_BLANC.png"
+              src="/images/logo/MONO_BLANC.png"
               width={300}
               height={300}
               alt="Fresque logo"

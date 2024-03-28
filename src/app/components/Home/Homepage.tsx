@@ -17,7 +17,7 @@ export default function Homepage() {
             <div className="absolute z-10 mt-[2rem] w-full max-h-[100vh] flex flex-col justify-center items-center top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white gap-[0.5rem]">
               <Image
                 className="w-[12rem] h-[12rem] sm:w-[15rem] sm:h-[15rem]"
-                src="/images/LOGO_BLANC.png"
+                src="/images/logo/LOGO_BLANC.png"
                 width={300}
                 height={300}
                 alt="Fresque logo"

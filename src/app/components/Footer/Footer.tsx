@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="w-[5rem] h-[5rem] lg:w-[8rem] lg:h-[8rem]">
           <Image
             className="w-[5rem] h-[5rem] lg:w-[8rem] lg:h-[8rem] object-contain"
-            src="/images/LOGO_BLANC.png"
+            src="/images/logo/LOGO_BLANC.png"
             width={300}
             height={300}
             alt="Fresque logo"
