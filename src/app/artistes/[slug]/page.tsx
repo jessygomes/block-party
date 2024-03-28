@@ -146,6 +146,7 @@ export default function page({ params }: Props) {
           alt="Fresque logo"
         />
       </div>
+      <div className="bg-[#231f20] h-[3rem] px-[2rem]"></div>
       <div className="mt-[2rem] px-[1rem] lg:w-[70%] mx-auto lg:px-[10rem] ">
         {artist ? (
           <section className="flex flex-col justify-center items-center gap-[1rem] sm:gap-[2rem]">
