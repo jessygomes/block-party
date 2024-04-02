@@ -5,7 +5,6 @@ import Artistes from "../Artistes/Artistes";
 import Playlist from "../Playlist/Playlist";
 import AnimationEtStand from "../AnimationEtStand/AnimationEtStand";
 import CountTimer from "../CountTimer/CountTimer";
-import { motion } from "framer-motion";
 
 export default function Homepage() {
   return (
