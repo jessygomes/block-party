@@ -4,6 +4,7 @@ import styles from "./Navbar.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { motion, useMotionValue, useTransform } from "framer-motion";
 
 const itemNavbar = [
   {
@@ -28,8 +29,14 @@ export default function Navbar() {
   const [navActive, setNavActive] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  //! Animation logo
+  const scrollYLogo = useMotionValue(window.scrollY);
+  const rotate = useTransform(scrollYLogo, [0, 2000], [0, 360]);
+
   useEffect(() => {
     const handleScroll = () => {
+      scrollYLogo.set(window.scrollY);
+
       const isScrolled = window.scrollY > 50;
       if (isScrolled !== scrolled) {
         setScrolled(!scrolled);
@@ -39,7 +46,7 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scrolled]);
+  }, [scrolled, scrollYLogo]);
 
   const pathname = usePathname();
 
@@ -84,16 +91,18 @@ export default function Navbar() {
             );
           })}
 
-          <Link href="/">
-            <Image
-              className={styles.headerLogo}
-              src="/images/logo/MONO_BLANC.png"
-              width={300}
-              height={300}
-              alt="Fresque logo"
-              onClick={() => setNavActive(!navActive)}
-            />{" "}
-          </Link>
+          <motion.div style={{ rotate }}>
+            <Link href="/">
+              <Image
+                className={styles.headerLogo}
+                src="/images/logo/MONO_BLANC.png"
+                width={300}
+                height={300}
+                alt="Fresque logo"
+                onClick={() => setNavActive(!navActive)}
+              />{" "}
+            </Link>
+          </motion.div>
 
           {itemNavbar.slice(itemNavbar.length / 2).map((item, index) => {
             const active =

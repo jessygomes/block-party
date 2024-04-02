@@ -1,5 +1,3 @@
-import React from "react";
-import styles from "./Homepage.module.css";
 import { BackgroundGradientAnimation } from "../UI/background-gradient-animation";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,6 +5,7 @@ import Artistes from "../Artistes/Artistes";
 import Playlist from "../Playlist/Playlist";
 import AnimationEtStand from "../AnimationEtStand/AnimationEtStand";
 import CountTimer from "../CountTimer/CountTimer";
+import { motion } from "framer-motion";
 
 export default function Homepage() {
   return (
