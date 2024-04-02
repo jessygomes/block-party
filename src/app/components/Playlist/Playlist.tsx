@@ -1,27 +1,9 @@
-"use client";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 
 export default function Playlist() {
-  const [ref, inView] = useInView({
-    triggerOnce: true, // Change this to false if you want the animation to trigger again whenever it comes in view
-    rootMargin: "10% 0px",
-  });
-
   return (
     <div className="">
-      <motion.section
-        ref={ref}
-        initial={{ opacity: 0, scale: 1 }}
-        animate={{ opacity: inView ? 1 : 0, scale: inView ? 1 : 1 }}
-        transition={{
-          duration: 0.8,
-          delay: 0.5,
-          ease: [0, 0.71, 0.2, 1.01],
-        }}
-        className="py-[2rem] w-[95%] lg:w-[70%] mx-auto rounded-1rem sm:px-[2rem] lg:px-[5rem] gradient-bg flex flex-col justify-center items-center text-center gap-[1rem]"
-      >
+      <section className="py-[2rem] w-[95%] lg:w-[70%] mx-auto rounded-1rem sm:px-[2rem] lg:px-[5rem] gradient-bg flex flex-col justify-center items-center text-center gap-[1rem]">
         {/* <h2 className=" text-center font-bison text-[3rem] text-[#fff]">
           BLOCKPARTY PLAYLIST
         </h2> */}
@@ -36,7 +18,7 @@ export default function Playlist() {
         >
           PLAYLIST
         </Link>
-      </motion.section>
+      </section>
     </div>
   );
 }

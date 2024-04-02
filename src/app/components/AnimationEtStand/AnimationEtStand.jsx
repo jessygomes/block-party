@@ -1,27 +1,12 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import { motion, useInView } from "framer-motion";
 
 export default function AnimationEtStand() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
   return (
     <div className="flex flex-col items-center">
       <section className="flex px-[1rem] sm:px-[5rem] lg:px-[15rem] flex-col justify-center items-center text-center gap-[1rem] lg:flex-row">
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0, scale: 1 }}
-          animate={{ opacity: isInView ? 1 : 0, scale: isInView ? 1 : 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.5,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-          className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]"
-        >
+        <div className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
           <h2 className="text-center font-bison text-[3rem] text-[#231f20] pb-[1rem] ">
             NOS ANIMATIONS
           </h2>
@@ -47,18 +32,8 @@ export default function AnimationEtStand() {
               alt="Fresque logo"
             />
           </div>
-        </motion.div>
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0, scale: 1 }}
-          animate={{ opacity: isInView ? 1 : 0, scale: isInView ? 1 : 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.5,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-          className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]"
-        >
+        </div>
+        <div className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
           <h2 className=" text-center font-bison text-[3rem] text-[#231f20] pb-[1rem]">
             NOS STANDS & EXPOS
           </h2>
@@ -84,7 +59,7 @@ export default function AnimationEtStand() {
               alt="Fresque logo"
             />
           </div>
-        </motion.div>
+        </div>
       </section>
       <a
         href="/images/MONO_BLANC.png"
