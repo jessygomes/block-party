@@ -4,7 +4,7 @@ import React from "react";
 
 export default function AnimationEtStand() {
   return (
-    <div className="">
+    <div className="flex flex-col items-center">
       <section className="flex px-[1rem] sm:px-[5rem] lg:px-[15rem] flex-col justify-center items-center text-center gap-[1rem] lg:flex-row">
         <div className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
           <h2 className="text-center font-bison text-[3rem] text-[#231f20] pb-[1rem] ">
@@ -61,6 +61,13 @@ export default function AnimationEtStand() {
           </div>
         </div>
       </section>
+      <a
+        href="/images/MONO_BLANC.png"
+        download={true}
+        className="text-[1rem] font-rubikMedium text-[#231f20] underline hover:text-[#fa798f] transition-all duration-200 ease-in-out mt-[2rem]"
+      >
+        Télécharger la plaquette d&apos;informations
+      </a>
     </div>
   );
 }

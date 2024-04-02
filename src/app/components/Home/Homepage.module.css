@@ -5,15 +5,3 @@
   width: 100vw;
   color: white;
 }
-
-.download {
-  font-size: 0.9rem;
-  font-weight: 400;
-  padding: 1rem 0;
-  font-family: "Rubik-Light";
-  transition: ease-in-out 0.3s;
-}
-.download:hover {
-  transition: ease-in-out 0.3s;
-  color: #a3dabb;
-}

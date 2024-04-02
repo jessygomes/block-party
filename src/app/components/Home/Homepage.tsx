@@ -6,7 +6,7 @@ import Link from "next/link";
 import Artistes from "../Artistes/Artistes";
 import Playlist from "../Playlist/Playlist";
 import AnimationEtStand from "../AnimationEtStand/AnimationEtStand";
-import Footer from "@/app/components/Footer/Footer";
+import CountTimer from "../CountTimer/CountTimer";
 
 export default function Homepage() {
   return (
@@ -38,19 +38,7 @@ export default function Homepage() {
             <h1 className="text-[1.2rem] sm:text-[1.8rem] font-rubikBold">
               BLOCKPARTY - PREMIER BATTEMENT
             </h1>
-            {/* <p className={styles.text}>
-              Blockparty est un festival qui se déroule à 5min Orléans ! <br />{" "}
-              Petit paragraphe d&apos;introduction pour faire savoir ce
-              qu&apos;est Block Party, l&apos;endroit, les horaires, le lieu
-              etc. + si nécessaire
-            </p> */}
-            <a
-              href="/images/MONO_BLANC.png"
-              download={true}
-              className={styles.download}
-            >
-              Télécharger la plaquette d&apos;informations
-            </a>
+            <CountTimer />
           </div>
         </div>
       </section>
