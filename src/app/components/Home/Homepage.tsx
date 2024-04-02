@@ -34,7 +34,7 @@ export default function Homepage() {
               </Link>
             </div>
           </BackgroundGradientAnimation>
-          <div className="py-[2rem] text-center bg-[#231f20] text-white">
+          <div className="py-[2rem] flex flex-col justify-center items-center text-center bg-[#231f20] text-white">
             <h1 className="text-[1.2rem] sm:text-[1.8rem] font-rubikBold">
               BLOCKPARTY - PREMIER BATTEMENT
             </h1>

@@ -37,22 +37,22 @@ export default function CountTimer() {
   }, []);
 
   return (
-    <div className="text-[1rem] mt-2 sm:mt-0 flex gap-5 sm:gap-10 justify-center sm:text-[1.2rem] font-rubikBold">
+    <div className="text-[1rem] mt-2 sm:mt-0 flex gap-0 justify-center sm:gap-10 sm:text-[1.2rem] font-rubikBold">
       <div className="flex flex-col gap-1 items-center">
         <span className="w-[5rem]">{CountTimer.jours}</span>
-        <span>Jours</span>
+        <span className=" text-[0.8rem] sm:text-[1.2rem]">Jours</span>
       </div>
       <div className="flex flex-col gap-1 items-center">
         <span className="w-[5rem]">{CountTimer.heures}</span>
-        <span>Heures</span>
+        <span className=" text-[0.8rem] sm:text-[1.2rem]">Heures</span>
       </div>
       <div className="flex flex-col gap-1 items-center">
         <span className="w-[5rem]">{CountTimer.minutes}</span>
-        <span>Minutes</span>
+        <span className=" text-[0.8rem] sm:text-[1.2rem]">Minutes</span>
       </div>
       <div className="flex flex-col gap-1 items-center">
         <span className="w-[5rem]">{CountTimer.secondes}</span>
-        <span>Secondes</span>
+        <span className=" text-[0.8rem] sm:text-[1.2rem]">Secondes</span>
       </div>
     </div>
   );
