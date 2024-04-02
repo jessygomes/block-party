@@ -30,7 +30,9 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   //! Animation logo
-  const scrollYLogo = useMotionValue(window.scrollY);
+  const scrollYLogo = useMotionValue(
+    typeof window !== "undefined" ? window.scrollY : 0
+  );
   const rotate = useTransform(scrollYLogo, [0, 2000], [0, 360]);
 
   useEffect(() => {
