@@ -34,6 +34,10 @@
   width: 1.4rem;
   height: 2rem;
   margin: 0 2rem;
+  transition: all 0.3s ease;
+}
+.headerLogo:hover {
+  filter: drop-shadow(5px 5px 1px #a3dabb);
 }
 
 .nav__item {

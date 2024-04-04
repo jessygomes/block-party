@@ -24,7 +24,7 @@ export default function AnimationEtStand() {
           </Link>
           <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem]">
             <Image
-              className=" object-cover w-full h-full"
+              className=" object-cover w-full h-full rounded-1rem"
               src="/images/thibaut-burckel-emSBEruFpH4-unsplash.jpg"
               width={2000}
               height={1000}
@@ -49,9 +49,9 @@ export default function AnimationEtStand() {
           >
             Voir les stands
           </Link>
-          <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem]">
+          <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem] ">
             <Image
-              className=" object-cover w-full h-full"
+              className=" object-cover w-full h-full rounded-1rem"
               src="/images/jon-tyson-U3FPDpXQjCY-unsplash.jpg"
               width={2000}
               height={1000}
