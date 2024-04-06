@@ -80,12 +80,36 @@
     row-gap: 0.3rem;
     cursor: pointer;
   }
-  .nav__menuBar div {
+  .line {
     width: 40px;
     height: 0.2rem;
     background-color: #fff;
     border-radius: 10rem;
     z-index: 10;
+    transition: all 0.3s ease;
+  }
+  .l1 {
+    transform: translateY(0);
+  }
+
+  .l2 {
+    opacity: 1;
+  }
+
+  .l3 {
+    transform: translateY(0);
+  }
+
+  .activeBurger .l1 {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .activeBurger .l2 {
+    opacity: 0;
+  }
+
+  .activeBurger .l3 {
+    transform: translateY(-10px) rotate(-45deg);
   }
   .nav__menuList {
     flex-direction: column;
