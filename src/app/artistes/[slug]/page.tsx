@@ -202,7 +202,7 @@ export default function page({ params }: Props) {
                 href={artist.stream}
               >
                 <FontAwesomeIcon
-                  icon={faMusic}
+                  icon={faMusic as any}
                   size="2x"
                   className="hover:text-[#fa798f] transition-all duration-200 ease-in-out"
                 />
