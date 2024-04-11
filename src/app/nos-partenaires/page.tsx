@@ -1,4 +1,10 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nos Partenaires | BlockParty Festival",
+  description: "Les partenaires du festival BlocParty",
+};
 
 export default function NosPartenaires() {
   return (

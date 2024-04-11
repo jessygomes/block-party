@@ -1,6 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Qui Sommes-nous ? | BlockParty Festival",
+  description: "A propos du festival BlocParty",
+};
 
 export default function QuiSommesNous() {
   return (

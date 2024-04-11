@@ -5,16 +5,14 @@ export default function AnimationEtStand() {
   return (
     <div className="flex flex-col items-center">
       <section className="flex px-[1rem] sm:px-[5rem] lg:px-[15rem] flex-col justify-center items-center text-center gap-[1rem] lg:flex-row">
-        <div className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
+        <div className="flex-1 px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
           <h2 className="text-center font-bison text-[3rem] text-[#231f20] pb-[1rem] ">
             NOS ANIMATIONS
           </h2>
           <p className=" text-[#231f20] font-rubikMedium">
-            Petit paragraphe informatif pour introduire les animations et les
-            stands qui seront disponible durant le festival, puis redirigez vers
-            la page concerné si l&apos;utilisateur veut davantage
-            d&apos;informations (liste des animations/stands, horaires,
-            inscriptions etc.)
+            Plusieurs animations viendront rythmer l&apos;événement. La Block
+            Party promet une immersion totale dans la culture Hip-Hop dans un
+            cadre authentique !
           </p>
           <Link
             className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[20rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"
@@ -32,16 +30,14 @@ export default function AnimationEtStand() {
             />
           </div>
         </div>
-        <div className="px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
+        <div className="flex-1 px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] justify-center items-center mb-[1rem]">
           <h2 className=" text-center font-bison text-[3rem] text-[#231f20] pb-[1rem]">
             NOS STANDS & EXPOS
           </h2>
           <p className=" text-[#231f20] font-rubikMedium">
-            Petit paragraphe informatif pour introduire les animations et les
-            stands qui seront disponible durant le festival, puis redirigez vers
-            la page concerné si l&apos;utilisateur veut davantage
-            d&apos;informations (liste des animations/stands, horaires,
-            inscriptions etc.)
+            Plusieurs stands seront installés au cœur du festival. Les talents
+            locaux dans les domaines de la mode, la danse, le graffiti ou encore
+            le sport qui seront disponible tout au long de la journée.
           </p>
           <Link
             className="w-[17rem] text-[1.5rem] font-bison py-[0.3rem] bg-[#a3dabb] rounded-1rem sm:w-[17rem] sm:text-[2rem] sm:py-[0.5rem] hover:bg-[#fa798f] transition-all duration-200 ease-in-out text-white tracking-[0.3rem]"

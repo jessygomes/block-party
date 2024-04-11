@@ -1,4 +1,10 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Stand & Expositions | BlockParty Festival",
+  description: "Les stand et les expositions du festival BlocParty",
+};
 
 export default function StandExpos() {
   return (

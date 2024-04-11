@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Infos Pratique | BlockParty Festival",
+  description: "Festival de musique",
+};
 
 export default function InfosPratque() {
   return (

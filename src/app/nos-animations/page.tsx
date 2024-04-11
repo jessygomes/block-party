@@ -1,4 +1,10 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nos Animations | BlockParty Festival",
+  description: "Animations du festival BlocParty",
+};
 
 export default function NosAnimations() {
   return (
