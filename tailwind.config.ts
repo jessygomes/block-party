@@ -16,6 +16,7 @@ const config: Config = {
       },
       boxShadow: {
         "3xl": "0px 10px 25px 23px rgba(0, 0, 0, 0.90);",
+        "3xs": "0px 10px 20px 10px rgba(0, 0, 0, 0.50);",
       },
       animation: {
         first: "moveVertical 30s ease infinite",

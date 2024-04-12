@@ -26,6 +26,27 @@ export default function InfosPratque() {
           BlockParty Festival
         </h2> */}
       </div>
+      <section className="mt-[2rem] flex gap-[0.5rem] lg:gap-[2rem] px-[1rem] flex-wrap justify-center items-center max-w-[50rem] mx-auto">
+        <div className="flex-1 flex flex-col gap-[2rem] justify-center">
+          <h2 className="font-bison text-[2rem]">Le Moule à Gaufre</h2>
+          <p className=" text-justify">
+            Le site choisi pour accueillir le festival, le Moule à Gaufres,
+            ancienne usine à tabac, représente désormais un lieu emblématique au
+            cœur de l&apos;agglomération orléanaise. Passer ses portes,
+            c&apos;est s&apos;immerger dans une expérience sans limite,
+            suscitant la curiosité et encourageant la découverte.
+          </p>
+        </div>
+        <div className="lg:flex-1">
+          <Image
+            className=" object-cover w-full h-full rounded-1rem"
+            src="/images/moule.jpg"
+            width={2000}
+            height={1000}
+            alt="Photo du moule à gaufres"
+          />
+        </div>
+      </section>
     </div>
   );
 }
