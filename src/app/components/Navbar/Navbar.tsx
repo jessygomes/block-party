@@ -87,7 +87,7 @@ export default function Navbar() {
               <div
                 key={index}
                 onClick={() => {
-                  setNavActive(false);
+                  handleClick();
                 }}
               >
                 <Link
@@ -110,7 +110,7 @@ export default function Navbar() {
                 width={300}
                 height={300}
                 alt="Fresque logo"
-                onClick={() => setNavActive(!navActive)}
+                onClick={() => handleClick()}
               />{" "}
             </Link>
           </motion.div>
@@ -124,7 +124,7 @@ export default function Navbar() {
               <div
                 key={index}
                 onClick={() => {
-                  setNavActive(false);
+                  handleClick();
                 }}
               >
                 <Link

@@ -26,25 +26,57 @@ export default function InfosPratque() {
           BlockParty Festival
         </h2> */}
       </div>
-      <section className="mt-[2rem] flex gap-[0.5rem] lg:gap-[2rem] px-[1rem] flex-wrap justify-center items-center max-w-[50rem] mx-auto">
-        <div className="flex-1 flex flex-col gap-[2rem] justify-center">
-          <h2 className="font-bison text-[2rem]">Le Moule à Gaufre</h2>
-          <p className=" text-justify">
-            Le site choisi pour accueillir le festival, le Moule à Gaufres,
-            ancienne usine à tabac, représente désormais un lieu emblématique au
-            cœur de l&apos;agglomération orléanaise. Passer ses portes,
-            c&apos;est s&apos;immerger dans une expérience sans limite,
-            suscitant la curiosité et encourageant la découverte.
-          </p>
+      <section className="mt-[2rem] flex gap-[2rem] sm:gap-[2rem] px-[1rem] flex-wrap max-w-[50rem] mx-auto">
+        <div className="flex flex-wrap justify-center sm:justify-normal gap-[1.5rem] sm:gap-[2rem] w-full">
+          <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
+            <h2 className="font-bison text-[2rem]">
+              Horaires le 22 juin 2024 :
+            </h2>
+            <p>Ouverture du festival : 14h00</p>
+            <p>Fermeture du festival : 1h00</p>
+            <p className="pt-[1rem] font-rubikMedium">
+              Bar et restauration sur place
+            </p>
+          </div>
+          <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
+            <h2 className="font-bison text-[2rem]">Tarifs :</h2>
+            <p>
+              Moins de 15 ans :{" "}
+              <span className=" font-rubikMedium">Gratuit</span>
+            </p>
+            <p>
+              Tarif réduit : <span className=" font-rubikMedium">10€</span>
+            </p>
+            <p>
+              Prévente ou sur place avant 18h :{" "}
+              <span className=" font-rubikMedium">14€</span>{" "}
+            </p>
+            <p>
+              Sur place après 18h :{" "}
+              <span className=" font-rubikMedium">18€</span>
+            </p>
+          </div>
         </div>
-        <div className="lg:flex-1">
-          <Image
-            className=" object-cover w-full h-full rounded-1rem"
-            src="/images/moule.jpg"
-            width={2000}
-            height={1000}
-            alt="Photo du moule à gaufres"
-          />
+        <div className="flex flex-wrap justify-center items-center gap-[0.5rem] sm:gap-[2rem]">
+          <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
+            <h2 className="font-bison text-[2rem]">Le Moule à Gaufre :</h2>
+            <p className=" text-justify font-rubikLight">
+              Le site choisi pour accueillir le festival, le Moule à Gaufres,
+              ancienne usine à tabac, représente désormais un lieu emblématique
+              au cœur de l&apos;agglomération orléanaise. Passer ses portes,
+              c&apos;est s&apos;immerger dans une expérience sans limite,
+              suscitant la curiosité et encourageant la découverte.
+            </p>
+          </div>
+          <div className="sm:flex-1">
+            <Image
+              className=" object-cover w-full h-full rounded-1rem"
+              src="/images/moule.jpg"
+              width={2000}
+              height={1000}
+              alt="Photo du moule à gaufres"
+            />
+          </div>
         </div>
       </section>
     </div>
