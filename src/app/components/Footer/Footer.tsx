@@ -25,7 +25,9 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className=" font-bison text-[1.5rem] mb-[1rem]">Suivez-Nous</h2>
+          <h2 className=" font-bison text-[1.5rem] mb-[1rem]">
+            Suivez-Nous sur Instagram
+          </h2>
           <div className="flex flex-wrap flex-row justify-center items-center gap-[1rem]">
             <Link href="https://www.instagram.com/blockparty.festival?igsh=d3cwbmxhODBpOG04">
               <FontAwesomeIcon
@@ -34,7 +36,7 @@ export default function Footer() {
                 className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
               />
             </Link>
-            <Link href="https://www.instagram.com/blockpartyorleans/">
+            {/* <Link href="https://www.instagram.com/blockpartyorleans/">
               <FontAwesomeIcon
                 icon={faYoutube}
                 size="2x"
@@ -54,7 +56,7 @@ export default function Footer() {
                 size="2x"
                 className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
 

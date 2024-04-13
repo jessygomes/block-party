@@ -110,7 +110,7 @@ export default function page({ params }: Props) {
       id: 8,
       slug: "anagramms",
       name: "ANAGRAMMS",
-      image: "/images/anagramms.JPG",
+      image: "/images/anagramms.jpg",
       description:
         "Anagramms est une artiste originaire d'Orléans. Enfant de la neo-soul, du RnB et des sonorités hip-hop, elle fait la fusion de ces genres pour créer une vibe très suave. \n\nC'est avec Gracy Hopkins qu'elle fait ses premiers pas dans la musique avec le titre 'Outside'. Son morceau 'fax' pose la première pierre à l'édifice puis s'en suivra le morceau 'J'essaie'. \n\nA chacune de ses performances, elle envoûte son public avec ses mélodies entêtantes et ses textes poignants. Grimpez dans le train Anagramms car elle n'a pas fini de vous charmer.",
       youtube: "https://www.youtube.com/channel/UCDQ0V1t3hFle1t5RckM8NWA",
