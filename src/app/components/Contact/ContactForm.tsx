@@ -56,7 +56,7 @@ export default function ContactForm() {
       className="flex justify-center flex-col gap-5 relative"
     >
       {confirmationMessage && (
-        <p className="text-white font-aldrich text-center">
+        <p className="text-[#231f20] font-aldrich text-center">
           {confirmationMessage}
         </p>
       )}

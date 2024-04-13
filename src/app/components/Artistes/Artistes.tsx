@@ -140,7 +140,7 @@ export default function Artistes() {
                   src={artiste.image}
                   width={2000}
                   height={1000}
-                  alt="Fresque logo"
+                  alt={artiste.name}
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-200 rounded-1rem">
                   <p className="text-white font-rubikBold">En savoir plus</p>
