@@ -232,6 +232,18 @@ export default function page({ params }: Props) {
             allowFullScreen
           ></iframe>
         </div>
+        <h2 className="font-bison text-center uppercase text-[2rem] mb-3">
+          Line Up
+        </h2>
+        <div className="flex flex-wrap gap-[1rem] justify-center items-center">
+          {artistes.map((artiste) => (
+            <Link href={artiste.link} key={artiste.id}>
+              <p className=" font-rubikMedium hover:text-[#fa798f] hover:font-rubikBold transition-all ease-in-out">
+                {artiste.name}
+              </p>
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

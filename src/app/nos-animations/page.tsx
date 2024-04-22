@@ -29,31 +29,78 @@ export default function NosAnimations() {
       <section className="mt-[2rem] flex gap-[0.5rem] lg:gap-[2rem] px-[1rem] flex-wrap justify-center items-center max-w-[50rem] mx-auto">
         <div className="flex-1 flex flex-col gap-[2rem] justify-center">
           <h2 className="font-bison text-[2rem]">La journée BlockParty</h2>
+          <div className="h-[8rem] w-[100%] md:h-[10rem]">
+            <Image
+              className=" object-cover w-full h-full rounded-1rem"
+              src="/images/image00001.png"
+              width={2000}
+              height={1000}
+              alt="Photo du lieu de l'événement"
+            />
+          </div>
           <p className=" text-justify">
-            La première édition, Block Party : Premier Battement aura lieu le 22
-            juin au Moule à Gaufres à Fleury-Les-Aubrais. Se succèderont des
-            artistes locaux, émergents et des têtes d&apos;affiche, promettant
-            une expérience musicale riche et diversifiée ! Avant cela, on
-            retrouvera dans la journée des stands et des créateurs locaux,
-            plusieurs animations viendront rythmer l&apos;événement. La Block
-            Party promet une immersion totale dans la culture Hip-Hop dans un
-            cadre authentique !
+            Pour cette première édition, le BlockParty Festival vous propose du
+            lourd en termes d&apos;animations.{" "}
+            <span className="font-bold">
+              Tout au long de la journée, préparez-vous à entrer dans
+              l&apos;univers Hip Hop sous tous ces angles.{" "}
+            </span>{" "}
+            <br /> <br /> Dans un cadre authentique, laissez-nous vous embarquer
+            par la culture qui à traverser les époques (et oui, 50 ans
+            d&apos;existence), qui a su évoluer et séduire le plus grand nombre.
+            Mais revenons au source, qu&apos;est-ce qu&apos;une block party ?
           </p>
+          <h3 className="font-bison text-[1.5rem]">
+            &quot;Et le 22 juin, qu&apos;est-ce qu&apos;on peut faire ?&quot;
+          </h3>
           <p>
-            Une conférence traitant de l&apos;évolution de la culture Hip-Hop
-            Orléanaise depuis les années 1990 sera organisée sur place, en début
-            d&apos;après-midi avec des acteurs de la scène Hip-Hop Orléanaise.
-            Cette conférence sera conclue par un éventail des possibilités
-            artistiques sur Orléans et ses alentours (concours,
-            opportunités...).
+            Allez à la découverte des artistes locaux à travers les stands
+            d&apos;expositions, déguster une bonne boisson sous le soleil depuis
+            l&apos;espace détente, s&apos;ambiancer sur les sets des DJs qui
+            envoient du gros son. Tellement de scénarios possibles drant
+            l&apos;après-midi du premier battement.{" "}
+            <span className=" font-bold">
+              Une chose est sûr, vous vivrez un moment fort et surtout unique au
+              Moule à Gaufre pour débuter l&apos;été de la meilleure des
+              manières.
+            </span>
           </p>
+
+          <div className="flex flex-col lg:flex-row gap-[1rem] justify-center items-center">
+            <div className="h-[5rem] w-[100%] md:h-[10rem]">
+              <Image
+                className=" object-cover w-full h-full rounded-1rem"
+                src="/images/lucarne.jpg"
+                width={2000}
+                height={1000}
+                alt="Photo du lieu de l'événement"
+              />
+            </div>
+            <p></p>
+            <p className="">
+              Bien évidemment, différents happening sont prévus entre 14h et
+              18h,{" "}
+              <span className="font-bold">
+                des défilés de créateurs, démonstration de graffiti, performance
+                de danse, de beatbox ou encore JAM session
+              </span>
+              . <br /> <br /> Les plus sportifs auront l&apos;occasion de défier
+              la lucarne de Block Party,{" "}
+              <span className="font-bold">
+                auront-ils la précision nécessaire pour parvenir à marquer ?
+              </span>
+            </p>
+          </div>
+
           <p>
-            Une jam session sera organisée juste avant le passage des artistes
-            sur la grosse scène permettant au public de prendre part au show.
-            Plusieurs stands seront installés au cœur du festival. Les talents
-            locaux dans les domaines de la mode, la danse, le graffiti ou encore
-            le sport pourront proposer au public diverses animations tout au
-            long de la journée.
+            Nous vous attendons nombreux dès l&apos;ouverture du site.
+            N&apos;oubliez surtout pas de venir avec votre meilleure énergie,
+            votre plus grand sourire et un cou bien musclé pour résister au
+            tremblement des 808.
+          </p>
+          <p className="font-bison text-[1.5rem]">
+            Bref, on se donne rendez-vous le 22 juin au Moule à Gaufre à Fleury
+            Les Aubrais !
           </p>
         </div>
         {/* <div className="lg:flex-1">

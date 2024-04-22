@@ -9,10 +9,10 @@ export default function AnimationEtStand() {
           <h2 className="text-center font-bison text-[3rem] text-[#231f20] pb-[1rem] ">
             NOS ANIMATIONS
           </h2>
-          <p className=" text-[#231f20] font-rubikMedium">
-            Plusieurs animations viendront rythmer l&apos;événement. La Block
-            Party promet une immersion totale dans la culture Hip-Hop dans un
-            cadre authentique !
+          <p className=" text-[#231f20] text-left font-rubikMedium">
+            Pas le temps de niaiser pour le premier battement de la Block Party,
+            on vous réserve du très lourd. Plongez dans l&apos;univers intense
+            du du Hip-Hop, et pour ce faire, quelques animations sont prévues…
           </p>
           <Link
             className="text-white w-[12rem] text-[1.5rem] font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]"
@@ -20,13 +20,13 @@ export default function AnimationEtStand() {
           >
             Infos & Inscription
           </Link>
-          <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem]">
+          <div className="h-[5rem] w-[100%] -mt-[2.5rem] -z-10 md:h-[15rem]">
             <Image
               className=" object-cover w-full h-full rounded-1rem"
               src="/images/thibaut-burckel-emSBEruFpH4-unsplash.jpg"
               width={2000}
               height={1000}
-              alt="Fresque logo"
+              alt="Photo d'animation"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function AnimationEtStand() {
           <h2 className=" text-center font-bison text-[3rem] text-[#231f20] pb-[1rem]">
             NOS STANDS & EXPOS
           </h2>
-          <p className=" text-[#231f20] font-rubikMedium">
+          <p className=" text-[#231f20] text-left font-rubikMedium">
             Plusieurs stands seront installés au cœur du festival. Les talents
             locaux dans les domaines de la mode, la danse, le graffiti ou encore
             le sport qui seront disponible tout au long de la journée.
@@ -45,13 +45,13 @@ export default function AnimationEtStand() {
           >
             Voir les stands
           </Link>
-          <div className="h-[5rem] w-[90%] -mt-[2.5rem] -z-10 md:h-[15rem] ">
+          <div className="h-[5rem] w-[100%] -mt-[2.5rem] -z-10 md:h-[15rem] ">
             <Image
               className=" object-cover w-full h-full rounded-1rem"
               src="/images/jon-tyson-U3FPDpXQjCY-unsplash.jpg"
               width={2000}
               height={1000}
-              alt="Fresque logo"
+              alt="Photo d'un stand"
             />
           </div>
         </div>

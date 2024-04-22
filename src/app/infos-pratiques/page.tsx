@@ -32,10 +32,23 @@ export default function InfosPratque() {
             <h2 className="font-bison text-[2rem]">
               Horaires le 22 juin 2024 :
             </h2>
-            <p>Ouverture du festival : 14h00</p>
-            <p>Fermeture du festival : 1h00</p>
+            <p>
+              Ouverture du festival :{" "}
+              <span className=" font-rubikMedium">14h00</span>{" "}
+            </p>
+            <p>
+              Fermeture du festival :{" "}
+              <span className=" font-rubikMedium">1h00</span>{" "}
+            </p>
+            <p className="pt-[1rem]">
+              Parking : <span className=" font-rubikMedium">Adresse</span>{" "}
+            </p>
+            <p className="">
+              Transport : <span className=" font-rubikMedium">Adresse</span>
+            </p>
+            <p className="">Parking à vélo</p>
             <p className="pt-[1rem] font-rubikMedium">
-              Bar et restauration sur place
+              Toilette et point d&apos;eau sur place.
             </p>
           </div>
           <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
@@ -55,12 +68,15 @@ export default function InfosPratque() {
               Sur place après 18h :{" "}
               <span className=" font-rubikMedium">18€</span>
             </p>
+            <p className="pt-[1rem] font-rubikMedium">
+              Bar et restauration sur place
+            </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center items-center gap-[0.5rem] sm:gap-[2rem]">
+        <div className="flex flex-col gap-[1rem] justify-center sm:gap-[1rem]">
           <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
-            <h2 className="font-bison text-[2rem]">Le Moule à Gaufre :</h2>
-            <p className=" text-justify font-rubikLight">
+            <h2 className="font-bison text-[2rem] mb-3">Le Moule à Gaufre :</h2>
+            <p className="text-justify font-rubikLight">
               Le site choisi pour accueillir le festival, le Moule à Gaufres,
               ancienne usine à tabac, représente désormais un lieu emblématique
               au cœur de l&apos;agglomération orléanaise. Passer ses portes,
@@ -68,10 +84,10 @@ export default function InfosPratque() {
               suscitant la curiosité et encourageant la découverte.
             </p>
           </div>
-          <div className="sm:flex-1">
+          <div className="h-[30%] w-full sm:flex-1 lg:h-[50%] bg-black">
             <Image
               className=" object-cover w-full h-full rounded-1rem"
-              src="/images/moule.jpg"
+              src="/images/image00002.png"
               width={2000}
               height={1000}
               alt="Photo du moule à gaufres"
