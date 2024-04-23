@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Infos Pratique | BlockParty Festival",
@@ -88,7 +89,7 @@ export default function InfosPratque() {
           <div className="h-[30%] w-full lg:h-[40%]">
             <Image
               className="object-cover w-full h-full rounded-1rem"
-              src="/images/image00002.png"
+              src="/images/image00002.jpg"
               width={2000}
               height={1000}
               alt="Photo du moule à gaufres"
@@ -98,7 +99,7 @@ export default function InfosPratque() {
             <div className="h-[35%] w-full lg:w-[50%] lg:h-[70%]">
               <Image
                 className="object-cover w-full h-full rounded-1rem"
-                src="/images/image00005.png"
+                src="/images/image00005.jpg"
                 width={2000}
                 height={1000}
                 alt="Photo du moule à gaufres"
@@ -107,13 +108,20 @@ export default function InfosPratque() {
             <div className="h-[35%] w-full lg:w-[50%] lg:h-[70%]">
               <Image
                 className="object-cover w-full h-full rounded-1rem"
-                src="/images/image00003.png"
+                src="/images/image00003.jpg"
                 width={2000}
                 height={1000}
                 alt="Photo du moule à gaufres"
               />
             </div>
           </div>
+        </div>
+        <div className="flex flex-wrap gap-[1rem] justify-center items-center mt-[2rem]">
+          <Link href="/">
+            <p className="w-[12rem] text-[1.5rem] text-center text-white font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]">
+              Retour à l&apos;accueil
+            </p>
+          </Link>
         </div>
       </section>
     </div>

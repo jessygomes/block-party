@@ -5,14 +5,14 @@ const stands = [
     insta: "https://www.instagram.com/africagraffitis/",
     content:
       "Nous, c'est AfricaGraffitis, une association orléanaise. On a pour but de favoriser et développer des réseaux relais pour mieux vivre dans la ville, dans un souci d'intégration dans l'espace citoyen. Nous contribuons au rapprochement des différentes cultures présentes dans notre ville, par notre engagement, nous voulons participer à la réduction des inégalités sociales et au renforcement des échanges dans le temps. Pour le faire concrètement, on agit comme facilitateur dans les projets comme les déménagements, les recherches d'appartements ou encore l'organisation d'événements.",
-    image: "/images/ag.png",
+    image: "/images/stands/ag.png",
   },
   {
     id: 2,
     insta: "https://www.instagram.com/bellenippeshop/",
     title: "Belle Nippe",
     content: "Création de vêtement à la main, pièce unique ou série limitée.",
-    image: "/images/bn.png",
+    image: "/images/stands/bn.png",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const stands = [
     insta: "https://www.instagram.com/gaelle_wagner_/",
     title: "Gaël Wagner",
     content: "Réalisation d'une toile en direct devant public.",
-    image: "/images/gw.jpeg",
+    image: "/images/stands/gw.jpg",
   },
   {
     id: 5,
@@ -41,14 +41,14 @@ const stands = [
     title: "Les French Fruits",
     content:
       "Nous sommes les French Fruits, une association de danse Hip Hop orléanaise spécialisée dans l'improvisation (dit freestyle). Nous souhaitons répandre cette pratique au grand public, par l'intermédiaire de workshop, cours et représentation scénique.",
-    image: "/images/lff.png",
+    image: "/images/stands/lff.png",
   },
   {
     id: 7,
     insta: "https://www.instagram.com/maisonfrancoeurclothing/",
     title: "Maison Francoeur",
     content: "Stand friperie.",
-    image: "/images/mf.jpeg",
+    image: "/images/stands/mf.jpg",
   },
   {
     id: 8,
@@ -56,7 +56,7 @@ const stands = [
     title: "Mathilde Durand",
     content:
       "La seule chose que j’ai conservé de mes études en journalisme sont des magazines et des journaux. Mon « effet papillon », c’est le jour où je les ai redécoupé en petits fragments pour reproduire la pochette de l'album L'amour d'A2H. Dans le collage, je trouve quelque chose de très thérapeutique. C’est comme un immense puzzle d'albums qui m'ont particulièrement marqué. Depuis, je n’ai jamais arrêté.",
-    image: "/images/md.jpeg",
+    image: "/images/stands/md.jpg",
   },
   {
     id: 9,

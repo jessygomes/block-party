@@ -28,7 +28,7 @@ export default function Homepage() {
                 href="https://www.lastrolabe.org/agenda/"
                 target="_blank"
               >
-                PREND TA PLACE !
+                PRENDS TA PLACE !
               </Link>
             </div>
           </BackgroundGradientAnimation>

@@ -75,7 +75,6 @@ export default function NosAnimations() {
                 alt="Photo du lieu de l'événement"
               />
             </div>
-            <p></p>
             <p className="">
               Bien évidemment, différents happening sont prévus entre 14h et
               18h,{" "}
