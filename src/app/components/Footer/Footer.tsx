@@ -65,6 +65,11 @@ export default function Footer() {
             Liens utiles
           </h2>
           <div className="flex flex-col gap-[1rem]">
+            <Link href="/">
+              <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
+                Accueil
+              </h3>
+            </Link>
             <Link href="/artistes">
               <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
                 Line Up
