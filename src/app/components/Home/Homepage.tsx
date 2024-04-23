@@ -40,6 +40,15 @@ export default function Homepage() {
           </div>
         </div>
       </section>
+      <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
+        <a
+          href="/images/MONO_BLANC.png"
+          download={true}
+          className="text-[1rem] font-rubikMedium text-[#231f20] underline hover:text-[#ffffff] transition-all duration-200 ease-in-out mt-[2rem]"
+        >
+          Télécharger la plaquette d&apos;informations
+        </a>
+      </div>
       <div className="mt-[2rem]">
         <Artistes />
       </div>

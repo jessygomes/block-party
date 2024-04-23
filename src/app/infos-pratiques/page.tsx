@@ -22,11 +22,7 @@ export default function InfosPratque() {
           alt="Fresque logo"
         />
       </div>
-      <div className="bg-[#231f20] h-[3rem] px-[2rem]">
-        {/* <h2 className="text-[2rem] font-bison text-white">
-          BlockParty Festival
-        </h2> */}
-      </div>
+      <div className="bg-[#231f20] h-[3rem] px-[2rem]"></div>
       <section className="mt-[2rem] flex gap-[2rem] sm:gap-[2rem] px-[1rem] flex-wrap max-w-[50rem] mx-auto">
         <div className="flex flex-wrap justify-center sm:justify-normal gap-[1.5rem] sm:gap-[2rem] w-full">
           <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
@@ -48,9 +44,16 @@ export default function InfosPratque() {
               Transport : <span className=" font-rubikMedium">Adresse</span>
             </p>
             <p className="">Parking à vélo</p>
-            <p className="pt-[1rem] font-rubikMedium">
+            <p className="pt-[1rem] mb-3 font-rubikMedium">
               Toilette et point d&apos;eau sur place.
             </p>
+            <a
+              href="/images/MONO_BLANC.png"
+              download={true}
+              className="text-[1rem] font-rubikMedium text-[#fa798f] underline hover:text-[#6bb68b] transition-all duration-200 ease-in-out mt-[2rem]"
+            >
+              Télécharger la plaquette d&apos;informations
+            </a>
           </div>
           <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
             <h2 className="font-bison text-[2rem]">Tarifs :</h2>
@@ -75,7 +78,7 @@ export default function InfosPratque() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-[1rem] justify-start sm:gap-[1rem]">
+        <div className="flex flex-col gap-[1rem] justify-start sm:gap-[1rem] h-full">
           <div className=" font-rubikLight text-center sm:text-left">
             <h2 className="font-bison text-[2rem] mb-3">Le Moule à Gaufre :</h2>
             <p className="text-justify font-rubikLight">
@@ -86,16 +89,16 @@ export default function InfosPratque() {
               suscitant la curiosité et encourageant la découverte.
             </p>
           </div>
-          <div className="h-[30%] w-full lg:h-[40%]">
-            <Image
-              className="object-cover w-full h-full rounded-1rem"
-              src="/images/image00002.jpg"
-              width={2000}
-              height={1000}
-              alt="Photo du moule à gaufres"
-            />
-          </div>
           <div className="flex flex-col sm:flex-row gap-[1rem] h-full w-full">
+            <div className="h-[30%] lg:w-[50%] lg:h-[30%]">
+              <Image
+                className="object-cover w-full h-full rounded-1rem"
+                src="/images/image00002.jpg"
+                width={2000}
+                height={1000}
+                alt="Photo du moule à gaufres"
+              />
+            </div>
             <div className="h-[35%] w-full lg:w-[50%] lg:h-[70%]">
               <Image
                 className="object-cover w-full h-full rounded-1rem"
@@ -116,7 +119,7 @@ export default function InfosPratque() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap gap-[1rem] justify-center items-center mt-[2rem]">
+        <div className="flex flex-wrap gap-[1rem] justify-center items-center mt-[2rem] mx-auto">
           <Link href="/">
             <p className="w-[12rem] text-[1.5rem] text-center text-white font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]">
               Retour à l&apos;accueil

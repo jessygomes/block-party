@@ -13,7 +13,7 @@ export default function Playlist() {
         </p>
         <Link
           className="text-white w-[12rem] text-[1.5rem] font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]"
-          href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd?si=8b1b1b1b1b1b1b1b"
+          href="https://open.spotify.com/playlist/2kNapl2j5YM05aELb010w2?si=UkCV3MMETp2aqddWyvErTQ&pi=e-kc0SmrjjSFmo"
           target="_blank"
         >
           PLAYLIST

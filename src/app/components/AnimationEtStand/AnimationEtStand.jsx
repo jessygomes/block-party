@@ -56,13 +56,6 @@ export default function AnimationEtStand() {
           </div>
         </div>
       </section>
-      <a
-        href="/images/MONO_BLANC.png"
-        download={true}
-        className="text-[1rem] font-rubikMedium text-[#231f20] underline hover:text-[#fa798f] transition-all duration-200 ease-in-out mt-[2rem]"
-      >
-        Télécharger la plaquette d&apos;informations
-      </a>
     </div>
   );
 }
