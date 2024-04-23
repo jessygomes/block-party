@@ -37,7 +37,8 @@ export default function AnimationEtStand() {
           <p className=" text-[#231f20] text-left font-rubikMedium">
             Plusieurs stands seront installés au cœur du festival. Les talents
             locaux dans les domaines de la mode, la danse, le graffiti ou encore
-            le sport qui seront disponible tout au long de la journée.
+            le sport seront disponible tout au long de la journée pour vous
+            faire découvrir leurs arts...
           </p>
           <Link
             className="text-white w-[12rem] text-[1.5rem] font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]"
