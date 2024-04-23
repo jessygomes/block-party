@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Nos Animations | BlockParty Festival",
@@ -21,11 +22,9 @@ export default function NosAnimations() {
           alt="Fresque logo"
         />
       </div>
-      <div className="bg-[#231f20] h-[3rem] px-[2rem]">
-        {/* <h2 className="text-[2rem] font-bison text-white">
-          BlockParty Festival
-        </h2> */}
-      </div>
+
+      <div className="bg-[#231f20] h-[3rem] px-[2rem]">*</div>
+
       <section className="mt-[2rem] flex gap-[0.5rem] lg:gap-[2rem] px-[1rem] flex-wrap justify-center items-center max-w-[50rem] mx-auto">
         <div className="flex-1 flex flex-col gap-[2rem] justify-center">
           <h2 className="font-bison text-[2rem]">La journée BlockParty</h2>
@@ -50,7 +49,7 @@ export default function NosAnimations() {
             d&apos;existence), qui a su évoluer et séduire le plus grand nombre.
             Mais revenons au source, qu&apos;est-ce qu&apos;une block party ?
           </p>
-          <h3 className="font-bison text-[1.5rem]">
+          <h3 className="font-bison text-[1.3rem] lg:text-[1.5rem]">
             &quot;Et le 22 juin, qu&apos;est-ce qu&apos;on peut faire ?&quot;
           </h3>
           <p>
@@ -69,7 +68,7 @@ export default function NosAnimations() {
           <div className="flex flex-col lg:flex-row gap-[1rem] justify-center items-center">
             <div className="h-[5rem] w-[100%] md:h-[10rem]">
               <Image
-                className=" object-cover w-full h-full rounded-1rem"
+                className="object-cover w-full h-full rounded-1rem"
                 src="/images/lucarne.jpg"
                 width={2000}
                 height={1000}
@@ -102,6 +101,13 @@ export default function NosAnimations() {
             Bref, on se donne rendez-vous le 22 juin au Moule à Gaufre à Fleury
             Les Aubrais !
           </p>
+          <div className="flex flex-wrap gap-[1rem] justify-center items-center">
+            <Link href="/stand-expos">
+              <p className="w-[12rem] text-[1.5rem] text-center text-white font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]">
+                Voir nos Stands
+              </p>
+            </Link>
+          </div>
         </div>
         {/* <div className="lg:flex-1">
           <Image

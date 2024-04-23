@@ -73,8 +73,9 @@ export default function InfosPratque() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-[1rem] justify-center sm:gap-[1rem]">
-          <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
+
+        <div className="flex flex-col gap-[1rem] justify-start sm:gap-[1rem]">
+          <div className=" font-rubikLight text-center sm:text-left">
             <h2 className="font-bison text-[2rem] mb-3">Le Moule à Gaufre :</h2>
             <p className="text-justify font-rubikLight">
               Le site choisi pour accueillir le festival, le Moule à Gaufres,
@@ -84,14 +85,34 @@ export default function InfosPratque() {
               suscitant la curiosité et encourageant la découverte.
             </p>
           </div>
-          <div className="h-[30%] w-full sm:flex-1 lg:h-[50%] bg-black">
+          <div className="h-[30%] w-full lg:h-[40%]">
             <Image
-              className=" object-cover w-full h-full rounded-1rem"
+              className="object-cover w-full h-full rounded-1rem"
               src="/images/image00002.png"
               width={2000}
               height={1000}
               alt="Photo du moule à gaufres"
             />
+          </div>
+          <div className="flex flex-col sm:flex-row gap-[1rem] h-full w-full">
+            <div className="h-[35%] w-full lg:w-[50%] lg:h-[70%]">
+              <Image
+                className="object-cover w-full h-full rounded-1rem"
+                src="/images/image00005.png"
+                width={2000}
+                height={1000}
+                alt="Photo du moule à gaufres"
+              />
+            </div>
+            <div className="h-[35%] w-full lg:w-[50%] lg:h-[70%]">
+              <Image
+                className="object-cover w-full h-full rounded-1rem"
+                src="/images/image00003.png"
+                width={2000}
+                height={1000}
+                alt="Photo du moule à gaufres"
+              />
+            </div>
           </div>
         </div>
       </section>

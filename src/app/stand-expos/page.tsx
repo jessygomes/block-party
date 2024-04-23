@@ -1,5 +1,15 @@
 import Image from "next/image";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import type { Metadata } from "next";
+import Link from "next/link";
+import stands from "../../data/stands";
 
 export const metadata: Metadata = {
   title: "Stand & Expositions | BlockParty Festival",
@@ -28,43 +38,49 @@ export default function StandExpos() {
       </div>
       <section className="mt-[2rem] flex gap-[0.5rem] lg:gap-[2rem] px-[1rem] flex-wrap justify-center items-center max-w-[50rem] mx-auto">
         <div className="flex-1 flex flex-col gap-[2rem] justify-center">
-          <h2 className="font-bison text-[2rem]">La journée BlockParty</h2>
+          <h2 className="font-bison text-[2rem]">
+            Du talents & de la créativité !
+          </h2>
           <p className=" text-justify">
-            La première édition, Block Party : Premier Battement aura lieu le 22
-            juin au Moule à Gaufres à Fleury-Les-Aubrais. Se succèderont des
-            artistes locaux, émergents et des têtes d&apos;affiche, promettant
-            une expérience musicale riche et diversifiée ! Avant cela, on
-            retrouvera dans la journée des stands et des créateurs locaux,
-            plusieurs animations viendront rythmer l&apos;événement. La Block
-            Party promet une immersion totale dans la culture Hip-Hop dans un
-            cadre authentique !
+            L&apos;occasion de découvrir ou redécouvrir les artistes locaux à
+            travers des expositions tout au long de la journée.
+            <br /> <br /> Pour la première édition, une mutlitude de stands et
+            d&apos;expositions seront présents !
           </p>
-          <p>
-            Une conférence traitant de l&apos;évolution de la culture Hip-Hop
-            Orléanaise depuis les années 1990 sera organisée sur place, en début
-            d&apos;après-midi avec des acteurs de la scène Hip-Hop Orléanaise.
-            Cette conférence sera conclue par un éventail des possibilités
-            artistiques sur Orléans et ses alentours (concours,
-            opportunités...).
-          </p>
-          <p>
-            Une jam session sera organisée juste avant le passage des artistes
-            sur la grosse scène permettant au public de prendre part au show.
-            Plusieurs stands seront installés au cœur du festival. Les talents
-            locaux dans les domaines de la mode, la danse, le graffiti ou encore
-            le sport pourront proposer au public diverses animations tout au
-            long de la journée.
-          </p>
+          <Accordion type="single" collapsible>
+            {stands.map((stand) => (
+              <AccordionItem key={stand.id} value={`item-${stand.id}`}>
+                <AccordionTrigger className=" font-rubikBold">
+                  {stand.title}
+                </AccordionTrigger>
+                <AccordionContent className="flex flex-col lg:flex-row gap-[1rem] items-center justify-between">
+                  <div className="flex flex-col items-center lg:items-start gap-[1rem] font-rubikLight">
+                    {stand.content}
+                    <Link
+                      target="_blank"
+                      href={stand.insta}
+                      className="flex gap-2 justify-center items-center font-rubikMedium"
+                    >
+                      <FontAwesomeIcon
+                        icon={faInstagram}
+                        size="2x"
+                        className="text-[#a3dabb] hover:text-[#fa798f] transition-all duration-200 ease-in-out"
+                      />
+                      Instagram
+                    </Link>
+                  </div>
+                  <Image
+                    className="object-cover w-[70%] lg:w-[30%] h-full rounded-1rem"
+                    src={stand.image}
+                    width={2000}
+                    height={1000}
+                    alt=""
+                  />
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
-        {/* <div className="lg:flex-1">
-          <Image
-            className=" object-cover w-full h-full rounded-1rem"
-            src="/images/moule.jpg"
-            width={2000}
-            height={1000}
-            alt="Photo du moule à gaufres"
-          />
-        </div> */}
       </section>
     </div>
   );
