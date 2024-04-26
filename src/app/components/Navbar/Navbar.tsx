@@ -8,8 +8,8 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 
 const itemNavbar = [
   {
-    text: "Qui sommes-nous ?",
-    link: "/qui-sommes-nous",
+    text: "à propos",
+    link: "/a-propos",
   },
   {
     text: "Nos Partenaires",

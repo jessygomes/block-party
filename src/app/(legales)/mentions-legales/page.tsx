@@ -26,9 +26,9 @@ export default function page() {
           <p>Numéro de téléphone : ....</p>
 
           <h3 className=" font-rubikBold">Hébergeur du site :</h3>
-          <p>Nom de l&apos;hébergeur : ....</p>
-          <p>Adresse : ....</p>
-          <p>Coordonnées : ....</p>
+          <p>Nom de l&apos;hébergeur : Vercel</p>
+          <p>Adresse : San Francisco</p>
+          <p>Coordonnées : https://www.vercel.com</p>
 
           <h2 className="font-bison text-[2rem]">Propriété intellectuelle</h2>
           <p>
@@ -38,35 +38,35 @@ export default function page() {
           </p>
           <p>
             Les logos et marques des sociétés citées sur le site
-            blockpartyfestival.com sont la propriété exclusive de leurs auteurs
+            blockpartyfestival.fr sont la propriété exclusive de leurs auteurs
             respectifs. Toutes représentations et/ou reproductions et/ou
             exploitation partielle ou totale de ce site, par quelques procédés
             que ce soit, sans l&apos;autorisation expresse et préalable de
-            blockpartyfestival.com est interdite et constituerait une
-            contrefaçon au sens des articles L 335-2 et suivants du Code de la
-            propriété intellectuelle.
+            blockpartyfestival.fr est interdite et constituerait une contrefaçon
+            au sens des articles L 335-2 et suivants du Code de la propriété
+            intellectuelle.
           </p>
           <p>
             L&apos;élaboration de liens hypertextes profonds vers le site
-            blockpartyfestival.com est interdite sans l&apos;accord exprès et
-            préalable de blockpartyfestival.com. Par ailleurs,
-            l&apos;utilisation des informations contenues sur le site relève de
-            la seule responsabilité de l&apos;utilisateur. Nous ne pourrions en
-            aucun cas, et pour quelque cause que ce soit, en être tenus pour
+            blockpartyfestival.fr est interdite sans l&apos;accord exprès et
+            préalable de blockpartyfestival.fr. Par ailleurs, l&apos;utilisation
+            des informations contenues sur le site relève de la seule
+            responsabilité de l&apos;utilisateur. Nous ne pourrions en aucun
+            cas, et pour quelque cause que ce soit, en être tenus pour
             responsables, et ce, quelque en soit les conséquences. Nous ne
             sommes responsables d&apos;aucune erreur ou omission sur le présent
             site.
           </p>
           <p>
             Les photos et les illustrations utilisées sur le site
-            blockpartyfestival.com sont la propriété de leurs auteurs
-            respectifs. Toute reproduction totale ou partielle de ces éléments
-            sans l&apos;autorisation expresse de leurs auteurs est interdite.
+            blockpartyfestival.fr sont la propriété de leurs auteurs respectifs.
+            Toute reproduction totale ou partielle de ces éléments sans
+            l&apos;autorisation expresse de leurs auteurs est interdite.
           </p>
 
           <h2 className="font-bison text-[2rem]">Avertissement Général</h2>
           <p>
-            La consultation du site blockpartyfestival.com est proposée aux
+            La consultation du site blockpartyfestival.fr est proposée aux
             internautes à titre gratuit et sansaucune garantie de la part de son
             éditeur. Les informations disponibles sur ce site qui proviendrait
             de sources extérieures ne saurait garantir qu&apos;elles sont
@@ -76,7 +76,7 @@ export default function page() {
           <p>
             Les propriétaires des sites marchands, de services, sites persos,
             site informatiques (etc.) consultés à partir du site
-            blockpartyfestival.com sont seuls responsables du respect par eux de
+            blockpartyfestival.fr sont seuls responsables du respect par eux de
             l&apos;ensemble des réglementations s&apos;appliquant dans le cadre
             des prestations offertes aux clients finaux, et notamment, des lois
             et réglements relatif à : la vente à distance, la protection du
@@ -87,7 +87,7 @@ export default function page() {
           <h2 className="font-bison text-[2rem]">Crédit & Copyright</h2>
           <p>
             Les crédits et copyright des visuels et des photos présents sur le
-            blog blockpartyfestival.com sont signalés lorsqu&apos;elles
+            blog blockpartyfestival.fr sont signalés lorsqu&apos;elles
             proviennent d&apos;un professionnel avec son accord, à défaut :
             celle-ci proviennent de l&apos;un des sites photos libres de droit
             en créative commons : Pinterest.

@@ -13,6 +13,15 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 export default function Footer() {
   return (
     <div className="">
+      <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
+        <Link
+          href="/contactez-nous"
+          download={true}
+          className="text-[1rem] font-rubikMedium text-[#231f20] underline hover:text-[#ffffff] transition-all duration-200 ease-in-out mt-[2rem]"
+        >
+          Tu souhaites devenir bénévole ? Clique ici !
+        </Link>
+      </div>
       <section className="py-[2rem] px-[2rem] lg:px-[5rem] lg:py-[5rem] bg-[#231f20] flex flex-col lg:flex-row justify-center items-center text-center gap-[2rem] lg:gap-[8rem] text-white">
         <div className="w-[5rem] h-[5rem] lg:w-[8rem] lg:h-[8rem]">
           <Image
@@ -90,9 +99,9 @@ export default function Footer() {
                 Infos Pratique
               </h3>
             </Link>
-            <Link href="/qui-sommes-nous">
+            <Link href="/a-propos">
               <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
-                Qui sommes-nous ?
+                A Propos
               </h3>
             </Link>
             <Link href="/contactez-nous">
@@ -118,6 +127,7 @@ export default function Footer() {
             <h3 className=" font-rubikLight text-[1rem] ">
               Website by :{" "}
               <Link
+                target="_blank"
                 href="https://inthegleam.com/"
                 className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
               >

@@ -41,11 +41,17 @@ export default function StandExpos() {
           <h2 className="font-bison text-[2rem]">
             Du talents & de la créativité !
           </h2>
-          <p className=" text-justify">
+          <p className="font-rubikLight text-justify">
             L&apos;occasion de découvrir ou redécouvrir les artistes locaux à
-            travers des expositions tout au long de la journée.
-            <br /> <br /> Pour la première édition, une mutlitude de stands et
-            d&apos;expositions seront présents !
+            travers des expositions dès 14 heures. <br /> <br /> Pour la
+            première édition, une multitude de stands et d&apos;expositions
+            seront présents au coeur du festival. Le domaine de la mode, de la
+            peinture, du graffiti, des arts plastiques, du beatbox et bien
+            d&apos;autres seront représentés.
+            <br /> <br />{" "}
+            <span className="font-rubikMedium">
+              Présent pour le premier battement :
+            </span>
           </p>
           <Accordion type="single" collapsible>
             {stands.map((stand) => (

@@ -37,7 +37,7 @@ export default function NosAnimations() {
               alt="Photo du lieu de l'événement"
             />
           </div>
-          <p className=" text-justify">
+          <p className="font-rubikLight text-justify">
             Pour cette première édition, le BlockParty Festival vous propose du
             lourd en termes d&apos;animations.{" "}
             <span className="font-bold">
@@ -52,7 +52,7 @@ export default function NosAnimations() {
           <h3 className="font-bison text-[1.3rem] lg:text-[1.5rem]">
             &quot;Et le 22 juin, qu&apos;est-ce qu&apos;on peut faire ?&quot;
           </h3>
-          <p>
+          <p className="font-rubikLight">
             Allez à la découverte des artistes locaux à travers les stands
             d&apos;expositions, déguster une bonne boisson sous le soleil depuis
             l&apos;espace détente, s&apos;ambiancer sur les sets des DJs qui
@@ -75,7 +75,7 @@ export default function NosAnimations() {
                 alt="Photo du lieu de l'événement"
               />
             </div>
-            <p className="">
+            <p className="font-rubikLight">
               Bien évidemment, différents happening sont prévus entre 14h et
               18h,{" "}
               <span className="font-bold">
@@ -90,7 +90,7 @@ export default function NosAnimations() {
             </p>
           </div>
 
-          <p>
+          <p className="font-rubikLight">
             Nous vous attendons nombreux dès l&apos;ouverture du site.
             N&apos;oubliez surtout pas de venir avec votre meilleure énergie,
             votre plus grand sourire et un cou bien musclé pour résister au
