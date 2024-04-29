@@ -122,7 +122,7 @@ const artistes = [
     id: 10,
     slug: "chaazz",
     name: "CHAAZZ",
-    image: "/images/artistes/shaz.jpg",
+    image: "/images/artistes/shaz.JPG",
     image2: "/images/artistes/wicked.png",
     description:
       "Chaaz découvre la culture Hip-Hop avec Sydney et son emblématique émission Hip-Hop au milieu des années 80. C'est le début d'une histoire d'aomur. De Run DMC à Public Enemy à la fin des années 80, A Tribe Called Quest à Wu-Tang dans les années 90, les décennies se suivent mais l'énergie de cette musique ne le quittera jamais. \n\nC'est à Londres, fin 90's, que débute la collection de Vinyls et le plongeon aux origines du Hop-Hop avec ses samples à travers la Soul/Funk/Jazz/Jazzfunk, DJ sur Radio campus Orléans de 2006 à 2013 puis les « Chaazz Sessions » sur la webradio RAPTZ, Chaazz mixe au sein du collectif Wicked DJ Gang depuis 2022.",
@@ -136,14 +136,14 @@ const artistes = [
     id: 11,
     slug: "dj-vince-carter",
     name: "DJ VINCE CARTER",
-    image: "/images/artistes/carter.jpg",
+    image: "/images/artistes/carter.JPG",
     image2: "/images/artistes/wicked.png",
     description:
       "Vince Carter, co-fondateur du Wicked DJ Gang, plonge dans l'univers du hip-hop et du dancehall depuis plus de vingt ans à Orléans et Paris. En tant que DJ spécialisé en ragga dancehall, il vous transporte avec sa sélection Shatta dancehall pour un voyage à travers les Antilles et la Jamaïque.",
     youtube: "",
     clip: "",
     instagram: "https://www.instagram.com/dj_vince_carter_/",
-    stream: "",
+    stream: "https://on.soundcloud.com/RVGJyVcapzALsEiaA",
     link: "/artistes/dj-vince-carter",
   },
   {
