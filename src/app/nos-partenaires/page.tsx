@@ -86,6 +86,17 @@ export default function NosPartenaires() {
             </Link>
           </div>
           <div className="w-full h-[8rem] sm:w-[30%] sm:h-[10rem] flex justify-center items-center p-2 rounded-lg shadow-2xl hover:shadow-none transition-all ease-in-out">
+            <Link href="https://paradeprod.fr/" target="_blank">
+              <Image
+                className="object-cover h-[3rem] lg:h-auto w-auto"
+                src="/images/partenaires/parade.png"
+                width={1000}
+                height={1000}
+                alt="Logo de Parade Prod"
+              />
+            </Link>
+          </div>
+          <div className="w-full h-[8rem] sm:w-[30%] sm:h-[10rem] flex justify-center items-center p-2 rounded-lg shadow-2xl hover:shadow-none transition-all ease-in-out">
             <Link
               href="https://www.instagram.com/nextupmusicgroup/?hl=fr"
               target="_blank"
@@ -117,7 +128,7 @@ export default function NosPartenaires() {
             >
               <Image
                 className="object-contain h-[5rem] lg:h-[8rem] w-auto"
-                src="/images/partenaires/thumbnail_Capturefrfre.png"
+                src="/images/partenaires/only.jpg"
                 width={1000}
                 height={1000}
                 alt="Logo Only One Way"

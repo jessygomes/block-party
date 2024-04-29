@@ -12,15 +12,15 @@ const itemNavbar = [
     link: "/a-propos",
   },
   {
-    text: "Nos Partenaires",
-    link: "/nos-partenaires",
-  },
-  {
     text: "Infos Pratiques",
     link: "/infos-pratiques",
   },
   {
-    text: "Contactez-nous",
+    text: "Nos Partenaires",
+    link: "/nos-partenaires",
+  },
+  {
+    text: "Contact",
     link: "/contactez-nous",
   },
 ];

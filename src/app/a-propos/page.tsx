@@ -143,12 +143,12 @@ export default function APropos() {
               aria-label="La troisième structure : Parade Prod."
               className="flex flex-col gap-8 sm:w-[45%] sm:h-[18rem] lg:w-[48%] p-1"
             >
-              <div className="w-full h-[4rem] lg:h-[7rem] bg-slate-300">
+              <div className="w-full h-[4rem] lg:h-[7rem]">
                 <Image
-                  className="object-contain w-auto h-[4rem] mx-auto md:w-[7rem] md:h-full lg:h-full lg:w-[12rem]"
-                  src="/images/partenaires/PARADE PROD.png"
-                  width={300}
-                  height={300}
+                  className="object-cover w-auto h-[4rem] mx-auto md:w-[7rem] md:h-full lg:h-full lg:w-[15rem]"
+                  src="/images/partenaires/parade.png"
+                  width={1000}
+                  height={1000}
                   alt="Logo de Parade Prod"
                 />
               </div>
@@ -173,7 +173,7 @@ export default function APropos() {
                 />
                 <Image
                   className="object-contain w-auto h-[5rem] mx-auto md:w-[7rem] md:h-full lg:h-full"
-                  src="/images/partenaires/thumbnail_Capturefrfre.png"
+                  src="/images/partenaires/only.jpg"
                   width={300}
                   height={300}
                   alt="Logo de Only One Way"

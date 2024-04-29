@@ -12,7 +12,7 @@ const stands = [
     insta: "https://www.instagram.com/bellenippeshop/",
     title: "Belle Nippe",
     content: "Création de vêtement à la main, pièce unique ou série limitée.",
-    image: "/images/stands/bn.png",
+    image: "/images/stands/bnBlackLogo.png",
   },
   {
     id: 3,

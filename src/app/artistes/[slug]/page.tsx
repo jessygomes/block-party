@@ -71,6 +71,15 @@ export default function page({ params }: Props) {
                 alt={artist.name}
               />
             </div>
+            {artist.image2 ? (
+              <Image
+                className=" object-cover h-[8rem] w-auto"
+                src={artist.image2}
+                width={1000}
+                height={1000}
+                alt={artist.image2}
+              />
+            ) : null}
             <div className="flex flex-1 flex-col gap-[1rem] font-rubikLight text-justify sm:px-[3rem] lg:px-0">
               {artistWithParagraphs.descriptionParagraphs}
             </div>
