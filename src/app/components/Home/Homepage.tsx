@@ -25,10 +25,11 @@ export default function Homepage() {
               </p>
               <Link
                 className="w-[12rem] text-[1.5rem] lg:text-[2.4rem] font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]"
-                href="https://www.lastrolabe.org/agenda/"
-                target="_blank"
+                // href="https://www.lastrolabe.org/agenda/"
+                href=""
+                // target="_blank"
               >
-                PRENDS TA PLACE !
+                BIENTOT DISPO !
               </Link>
             </div>
           </BackgroundGradientAnimation>
@@ -40,7 +41,7 @@ export default function Homepage() {
           </div>
         </div>
       </section>
-      <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
+      {/* <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
         <a
           href="/images/MONO_BLANC.png"
           download={true}
@@ -57,7 +58,7 @@ export default function Homepage() {
       </div>
       <div className="mt-[2rem]">
         <AnimationEtStand />
-      </div>
+      </div> */}
     </div>
   );
 }
