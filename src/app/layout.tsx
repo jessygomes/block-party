@@ -21,16 +21,16 @@ export default function RootLayout({
     <html lang="fr">
       <body className={inter.className}>
         {children}
-        {/* <div className="fixed top-0 z-30 w-full flex justify-center">
+        <div className="fixed top-0 z-30 w-full flex justify-center">
           <Navbar />
-        </div> */}
+        </div>
         <div>
           <Toast />
         </div>
       </body>
-      {/* <div className="mt-[3rem]">
+      <div className="mt-[3rem]">
         <Footer />
-      </div> */}
+      </div>
     </html>
   );
 }
