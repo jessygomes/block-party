@@ -103,7 +103,7 @@ export default function Footer() {
                 href="https://inthegleam.com/"
                 className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
               >
-                InTheGleam
+                IntheGleam
               </Link>
             </h3>
           </div>

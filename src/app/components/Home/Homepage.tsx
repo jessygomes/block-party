@@ -40,7 +40,7 @@ export default function Homepage() {
           </div>
         </div>
       </section>
-      <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
+      {/* <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
         <a
           href="/images/MONO_BLANC.png"
           download={true}
@@ -48,7 +48,7 @@ export default function Homepage() {
         >
           Télécharger la plaquette d&apos;informations
         </a>
-      </div>
+      </div> */}
       <div className="mt-[2rem]">
         <Artistes />
       </div>
