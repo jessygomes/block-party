@@ -130,7 +130,7 @@ export default function NosPartenaires() {
               target="_blank"
             >
               <Image
-                className="object-cover h-[3rem] lg:h-auto w-auto"
+                className="object-cover h-auto lg:h-auto w-auto"
                 src="/images/partenaires/Unknown.png"
                 width={1000}
                 height={1000}
