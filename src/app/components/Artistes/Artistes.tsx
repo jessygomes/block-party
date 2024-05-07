@@ -1,14 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import artistes from "../../../data/artistes";
+import RevealEffect from "../RevealEffect/RevealEffect";
 
 export default function Artistes() {
   return (
     <div className="">
       <section className="">
-        <h2 className=" text-center font-bison text-[3rem] text-[#231f20]">
-          Line-up & DJ
-        </h2>
+        <RevealEffect>
+          <h2 className=" text-center font-bison text-[3rem] text-[#231f20]">
+            Line-up & DJ
+          </h2>
+        </RevealEffect>
         <div className="mt-[2rem] flex gap-[0.5rem] flex-wrap justify-center max-w-[50rem] mx-auto">
           {artistes.map((artiste) => (
             <Link href={artiste.link} key={artiste.name}>

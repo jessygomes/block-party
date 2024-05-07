@@ -23,17 +23,18 @@ const stands = [
   },
   {
     id: 4,
-    insta: "https://www.instagram.com/gaelle_wagner_/",
-    title: "Gaël Wagner",
-    content: "Réalisation d'une toile en direct devant public.",
-    image: "/images/stands/gw.jpg",
-  },
-  {
-    id: 5,
     insta: "",
     title: "Kill Your God / Purgatory",
     content: "",
     image: "",
+  },
+  {
+    id: 5,
+    insta: "https://www.instagram.com/gin.imaginaire/",
+    title: "L'Imaginaire",
+    content:
+      "Fondée il y a plusieurs années par des passionnés de spiritueux, l'entreprise s'engage à créer des gins d'exception en utilisant des méthodes artisanales et des ingrédients locaux de qualité.",
+    image: "/images/stands/imaginaire.png",
   },
   {
     id: 6,
@@ -47,7 +48,8 @@ const stands = [
     id: 7,
     insta: "https://www.instagram.com/maisonfrancoeurclothing/",
     title: "Maison Francoeur",
-    content: "Stand friperie.",
+    content:
+      "Maison Francoeur, friperie éclectique, vise à offrir des pièces uniques, de qualité et abordables, transcendant les époques pour une gamme variée qui séduit tous les goûts, sans se limiter à une niche spécifique.",
     image: "/images/stands/mf.jpg",
   },
   {
@@ -92,13 +94,27 @@ const stands = [
   },
   {
     id: 13,
-    insta: "https://www.instagram.com/radio_campus_orleans/",
-    title: "Radio Campus",
+    insta: "https://www.instagram.com/pezer.97/",
+    title: "Pezer",
     content: "",
     image: "",
   },
   {
     id: 14,
+    insta: "https://www.instagram.com/radio_campus_orleans/",
+    title: "Radio Campus",
+    content: "",
+    image: "/images/partenaires/Radio Campus Orleans noir.png",
+  },
+  {
+    id: 15,
+    insta: "",
+    title: "Scienck Art",
+    content: "",
+    image: "",
+  },
+  {
+    id: 16,
     insta: "https://www.instagram.com/underground.socialclub/",
     title: "Underground Social Club",
     content:
@@ -106,11 +122,12 @@ const stands = [
     image: "/images/stands/under.png",
   },
   {
-    id: 15,
+    id: 17,
     insta: "https://www.instagram.com/ztem.studio/",
     title: "ZTEM Studio",
-    content: "",
-    image: "",
+    content:
+      "ZTEM est une créatrice de mode engagée et éco-responsable. Elle mêle des looks déstructurés en utilisant uniquement des matériaux de seconde-main, à des esthétiques plus lisses grâce à sa technique et à la qualité des tissus utilisés, ce qui permet aux pièces créées d’allier originalité et durabilité.",
+    image: "/images/stands/logo.png",
   },
 ];
 

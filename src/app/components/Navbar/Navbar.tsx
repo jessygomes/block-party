@@ -4,6 +4,7 @@ import styles from "./Navbar.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { BackgroundGradientAnimation } from "../UI/background-gradient-animation2";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 
 const itemNavbar = [

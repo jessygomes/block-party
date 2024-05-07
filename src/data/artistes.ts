@@ -27,6 +27,19 @@ const artistes = [
   },
   {
     id: 3,
+    slug: "kayefuru",
+    name: "KAYEFURU",
+    image: "/images/artistes/kayefuru.jpeg",
+    description:
+      "Kayefuru est une jeune DJ originaire de banlieue parisienne. Autodidacte, elle a su s'imposer en 2 ans parmi les DJs les plus en vogue de Paris en participant notamment aux éditions de la Yard ou de la Vivienne Party et en démontrant son talent dans différents clubs parisiens (Silencio, Wanderlust, Folies Pigalle etc.). \n\nDurant sa carrière de DJ, Kayefuru a pu travailler avec plusieurs marques notamment en période de Fashion Week : Patta, Foot Locker, Nike, Adidas... C'est en 2022, qu'elle deviendra une DJ résidente du flagship Lacoste des Champs Elysées.",
+    youtube: "https://www.youtube.com/@KayEfuru",
+    clip: "G7TIL9cwqZ4",
+    instagram: "https://www.instagram.com/kayefuru?igsh=eTFlOWVrZDNtZnJj",
+    stream: "https://soundcloud.com/kay-efuru",
+    link: "/artistes/kayefuru",
+  },
+  {
+    id: 4,
     slug: "lhiroyd",
     name: "LHIROYD",
     image: "/images/artistes/lhi.jpeg",
@@ -37,21 +50,6 @@ const artistes = [
     instagram: "https://www.instagram.com/lhiroyd?igsh=MTF6ajM4dG9hcG9wag==",
     stream: "https://alterk.lnk.to/SugarDaddy",
     link: "/artistes/lhiroyd",
-  },
-  {
-    id: 4,
-    slug: "partymore",
-    name: "PARTYMORE",
-    image: "/images/artistes/partymore.jpg",
-    description:
-      "C'est en se laissant porter par le creux des vagues, que l'on se rend compte que l'on fait partie de l'océan. Be water. \n\nC'est ainsi que Partymore définit sa proposition musicale. L'authenticité englobe chaque contour de ses mots, derrière chacune de ses virgules se cache la volonté d'expression de sujets ou d'émotions que la société a, au quotidien, plus ou moins du mal à exprimer.",
-    youtube: "https://www.youtube.com/@Partymore",
-    clip: "9B7G6TglS18",
-    instagram:
-      "https://www.instagram.com/jesuispartymore?igsh=MWdlNmF3c3Fpc3c2MQ==",
-    stream:
-      "https://social.tunecore.com/linkShare?linkid=WljiduDLYGqGIdD37Pay4w",
-    link: "/artistes/partymore",
   },
   {
     id: 5,
@@ -68,6 +66,22 @@ const artistes = [
   },
   {
     id: 6,
+    slug: "partymore",
+    name: "PARTYMORE",
+    image: "/images/artistes/partymore.jpg",
+    description:
+      "C'est en se laissant porter par le creux des vagues, que l'on se rend compte que l'on fait partie de l'océan. Be water. \n\nC'est ainsi que Partymore définit sa proposition musicale. L'authenticité englobe chaque contour de ses mots, derrière chacune de ses virgules se cache la volonté d'expression de sujets ou d'émotions que la société a, au quotidien, plus ou moins du mal à exprimer.",
+    youtube: "https://www.youtube.com/@Partymore",
+    clip: "9B7G6TglS18",
+    instagram:
+      "https://www.instagram.com/jesuispartymore?igsh=MWdlNmF3c3Fpc3c2MQ==",
+    stream:
+      "https://social.tunecore.com/linkShare?linkid=WljiduDLYGqGIdD37Pay4w",
+    link: "/artistes/partymore",
+  },
+
+  {
+    id: 7,
     slug: "sulka",
     name: "SULKA",
     image: "/images/artistes/sulka.jpeg",
@@ -80,7 +94,7 @@ const artistes = [
     link: "/artistes/sulka",
   },
   {
-    id: 7,
+    id: 8,
     slug: "soma-exe",
     name: "SOMA EXE",
     image: "/images/artistes/soma.jpg",
@@ -93,7 +107,7 @@ const artistes = [
     link: "/artistes/soma-exe",
   },
   {
-    id: 8,
+    id: 9,
     slug: "anagramms",
     name: "ANAGRAMMS",
     image: "/images/artistes/anagramms.png",
@@ -106,20 +120,22 @@ const artistes = [
     link: "/artistes/anagramms",
   },
   {
-    id: 9,
-    slug: "kayefuru",
-    name: "KAYEFURU",
-    image: "/images/artistes/kayefuru.jpeg",
+    id: 10,
+    slug: "guiding-star",
+    name: "GUIDING STAR",
+    image: "/images/artistes/jacob.png",
+    image2: "/images/artistes/star.png",
     description:
-      "Kayefuru est une jeune DJ originaire de banlieue parisienne. Autodidacte, elle a su s'imposer en 2 ans parmi les DJs les plus en vogue de Paris en participant notamment aux éditions de la Yard ou de la Vivienne Party et en démontrant son talent dans différents clubs parisiens (Silencio, Wanderlust, Folies Pigalle etc.). \n\nDurant sa carrière de DJ, Kayefuru a pu travailler avec plusieurs marques notamment en période de Fashion Week : Patta, Foot Locker, Nike, Adidas... C'est en 2022, qu'elle deviendra une DJ résidente du flagship Lacoste des Champs Elysées.",
-    youtube: "https://www.youtube.com/@KayEfuru",
-    clip: "G7TIL9cwqZ4",
-    instagram: "https://www.instagram.com/kayefuru?igsh=eTFlOWVrZDNtZnJj",
-    stream: "https://soundcloud.com/kay-efuru",
-    link: "/artistes/kayefuru",
+      "Guiding Star Sound est un collectif de Dj qui a pour but la promotion en France et à travers le monde du Reggae Music dans la plus pure tradition jamaïcaine. Ce collectif, né en 1997 à Tours, s’est établi à Paris en 2001. Composés de 8 membres actifs qui ont acquis une véritable discothèque de « dubplates speciales » enregistrées par des artistes légendaires leurs permettant de gagner de nombreux titres en compétition appelées « sound clash ». Ils vous feront voyager aux sons des différentes mouvances du Reggae Music, des Foundations Ska et Roots aux derniers morceaux Dancehall n°1 en Jamaïque, en passant par le Digital et Dub music.",
+    youtube: "https://www.youtube.com/@partytimeradio",
+    clip: "1xImyyYg63E",
+    instagram: "",
+    stream:
+      "https://musica-web.wixsite.com/guiding-star-sound-?fbclid=IwAR2Igye7-fotLPbYoU-VFoXhpYQjJ0XRxi-BdN8YeW8O9chKGRFJ30o25Dg",
+    link: "/artistes/guiding-star",
   },
   {
-    id: 10,
+    id: 11,
     slug: "chaazz",
     name: "CHAAZZ",
     image: "/images/artistes/shaz.JPG",
@@ -133,7 +149,7 @@ const artistes = [
     link: "/artistes/chaazz",
   },
   {
-    id: 11,
+    id: 12,
     slug: "dj-vince-carter",
     name: "DJ VINCE CARTER",
     image: "/images/artistes/carter.JPG",
@@ -145,21 +161,6 @@ const artistes = [
     instagram: "https://www.instagram.com/dj_vince_carter_/",
     stream: "https://on.soundcloud.com/RVGJyVcapzALsEiaA",
     link: "/artistes/dj-vince-carter",
-  },
-  {
-    id: 12,
-    slug: "jacob",
-    name: "JACOB",
-    image: "/images/artistes/jacob.png",
-    image2: "/images/artistes/star.png",
-    description:
-      "Guiding Star Sound est un collectif de Dj qui a pour but la promotion en France et à travers le monde du Reggae Music dans la plus pure tradition jamaïcaine. Ce collectif, né en 1997 à Tours, s’est établi à Paris en 2001. Composés de 8 membres actifs qui ont acquis une véritable discothèque de « dubplates speciales » enregistrées par des artistes légendaires leurs permettant de gagner de nombreux titres en compétition appelées « sound clash ». Ils vous feront voyager aux sons des différentes mouvances du Reggae Music, des Foundations Ska et Roots aux derniers morceaux Dancehall n°1 en Jamaïque, en passant par le Digital et Dub music.",
-    youtube: "https://www.youtube.com/@partytimeradio",
-    clip: "1xImyyYg63E",
-    instagram: "",
-    stream:
-      "https://musica-web.wixsite.com/guiding-star-sound-?fbclid=IwAR2Igye7-fotLPbYoU-VFoXhpYQjJ0XRxi-BdN8YeW8O9chKGRFJ30o25Dg",
-    link: "/artistes/jacob",
   },
 ];
 

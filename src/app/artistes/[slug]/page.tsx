@@ -6,6 +6,7 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import type { Metadata } from "next";
 import artistes from "@/data/artistes";
+import { BackgroundGradientAnimation } from "../../components/UI/background-gradient-animation2";
 
 export const metadata: Metadata = {
   title: "Line Up | BlockParty Festival",
@@ -32,18 +33,11 @@ export default function page({ params }: Props) {
 
   return (
     <div>
-      <div className="h-[10rem] gradient-bg flex justify-center items-end">
+      <BackgroundGradientAnimation className="h-[10rem] flex justify-center items-end">
         <h1 className="text-white pt-[2rem]  pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
           {artist?.name ?? "Default Artist Name"}
         </h1>
-        <Image
-          className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
-          src="/images/FRESQUE_LOGO.png"
-          width={1000}
-          height={1000}
-          alt="Fresque logo"
-        />
-      </div>
+      </BackgroundGradientAnimation>
       <div className="bg-[#231f20] h-[3rem] px-[2rem]"></div>
       <div className="mt-[2rem] px-[1rem] lg:w-[70%] mx-auto lg:px-[8rem] ">
         {artist ? (

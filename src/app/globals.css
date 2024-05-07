@@ -73,3 +73,16 @@
     width: 300px;
   }
 }
+
+.reveal-element {
+  opacity: 0;
+  transform: translateY(20px);
+  /* Décalez l'élément vers le bas */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.reveal-element.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  /* Animer l'élément vers sa position normale */
+}

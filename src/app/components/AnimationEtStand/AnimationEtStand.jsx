@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import RevealEffect from "../RevealEffect/RevealEffect";
 
 export default function AnimationEtStand() {
   return (
@@ -7,13 +8,15 @@ export default function AnimationEtStand() {
       <section className="flex px-[1rem] sm:px-[5rem] lg:px-[15rem] flex-col justify-center items-center text-center gap-[1rem] lg:flex-row">
         <article className="flex-1 px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] lg:gap-0 justify-center items-center mb-[1rem]">
           <div className="lg:h-[14rem]">
-            <h2 className="text-center font-bison text-[3rem] text-[#231f20] pb-[1rem] ">
-              NOS ANIMATIONS
-            </h2>
+            <RevealEffect>
+              <h2 className="text-center font-bison text-[3rem] text-[#231f20] pb-[1rem] ">
+                NOS ANIMATIONS
+              </h2>
+            </RevealEffect>
             <p className=" text-[#231f20] text-left font-rubikMedium">
               Pas le temps de niaiser pour le premier battement de la Block
               Party, on vous réserve du très lourd. Plongez dans l&apos;univers
-              intense du du Hip-Hop, et pour ce faire, quelques animations sont
+              intense du Hip-Hop, et pour ce faire, quelques animations sont
               prévues…
             </p>
           </div>
@@ -36,13 +39,15 @@ export default function AnimationEtStand() {
 
         <article className="flex-1 px-[0.5rem] sm:px-0 flex flex-col gap-[1rem] lg:gap-0 justify-center items-center mb-[1rem] h-[35rem] ">
           <div className="lg:h-[14rem]">
-            <h2 className=" text-center font-bison text-[3rem] text-[#231f20] pb-[1rem]">
-              NOS STANDS & EXPOS
-            </h2>
+            <RevealEffect>
+              <h2 className=" text-center font-bison text-[3rem] text-[#231f20] pb-[1rem]">
+                NOS STANDS & EXPOS
+              </h2>
+            </RevealEffect>
             <p className=" text-[#231f20] text-left font-rubikMedium">
               Du talent et de la créativité à l&apos;orléanaise. Retrouvez dans
               un espace chill, de nombreux stands et exposants tout au long de
-              la journée, allez à leur découverte et créer votre propre
+              la journée, allez à leur découverte et créez votre propre
               expérience, votre propre Block Party...
             </p>
           </div>

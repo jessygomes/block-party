@@ -2,22 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import artistes from "../../data/artistes";
+import { BackgroundGradientAnimation } from "../components/UI/background-gradient-animation2";
 
 export default function page() {
   return (
     <div>
-      <div className="h-[10rem] w-full gradient-bg  flex justify-center items-end">
+      <BackgroundGradientAnimation className="h-[10rem] w-full flex justify-center items-end">
         <h1 className="text-white pt-[2rem] pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
           Line Up
         </h1>
-        <Image
-          className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
-          src="/images/FRESQUE_LOGO.png"
-          width={1000}
-          height={1000}
-          alt="Fresque logo"
-        />
-      </div>
+      </BackgroundGradientAnimation>
       <div className="bg-[#231f20] h-[3rem] px-[2rem]"></div>
       <section className="mt-[2rem] flex gap-[2rem] sm:gap-[2rem] px-[1rem] flex-wrap max-w-[50rem] mx-auto">
         <div className="mt-[2rem] flex gap-[0.5rem] flex-wrap justify-center max-w-[50rem] mx-auto">

@@ -25,11 +25,10 @@ export default function Homepage() {
               </p>
               <Link
                 className="w-[12rem] text-[1.5rem] lg:text-[2.4rem] font-bison py-[0.3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-1rem sm:w-[15rem] sm:text-[2rem] sm:py-[0.5rem] focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]"
-                // href="https://www.lastrolabe.org/agenda/"
-                href=""
-                // target="_blank"
+                href="https://billetterie.lastrolabe.org/agenda/57-block-party-premier-battement?session=57"
+                target="_blank"
               >
-                BIENTOT DISPO !
+                PRENDS TA PLACE !
               </Link>
             </div>
           </BackgroundGradientAnimation>

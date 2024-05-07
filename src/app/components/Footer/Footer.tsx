@@ -7,29 +7,19 @@ import {
   faXTwitter,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
-
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 export default function Footer() {
   return (
     <div className="">
-      <div className="p-[0.5rem] text-center bg-gradient-to-r from-[#a3dabb] to-[#6bb68b]">
-        <Link
-          href="/contactez-nous"
-          download={true}
-          className="text-[1rem] font-rubikMedium text-[#231f20] underline hover:text-[#ffffff] transition-all duration-200 ease-in-out mt-[2rem]"
-        >
-          Tu souhaites devenir bénévole ? Clique ici !
-        </Link>
-      </div>
-      <section className="py-[2rem] px-[2rem] lg:px-[5rem] lg:py-[5rem] bg-[#231f20] flex flex-col lg:flex-row justify-center items-center text-center gap-[2rem] lg:gap-[8rem] text-white">
-        <div className="w-[5rem] h-[5rem] lg:w-[8rem] lg:h-[8rem]">
+      <section className="h-screen lg:h-[85vh] py-[2rem] px-[2rem] lg:px-[5rem] lg:py-[5rem] bg-[#231f20] flex flex-col lg:flex-col justify-center items-center text-center gap-[1rem] lg:gap-[2rem] text-white">
+        <div className="w-[5rem] h-[5rem] mt-8 lg:mt-0 lg:w-[8rem] lg:h-[8rem]">
           <Image
             className="w-[5rem] h-[5rem] lg:w-[8rem] lg:h-[8rem] object-contain"
             src="/images/logo/LOGO_BLANC.png"
             width={300}
             height={300}
-            alt="Fresque logo"
+            alt="Logo de : BlockParty Festival"
           />
         </div>
 
@@ -45,35 +35,12 @@ export default function Footer() {
                 className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
               />
             </Link>
-            {/* <Link href="https://www.instagram.com/blockpartyorleans/">
-              <FontAwesomeIcon
-                icon={faYoutube}
-                size="2x"
-                className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
-              />
-            </Link>
-            <Link href="https://www.instagram.com/blockpartyorleans/">
-              <FontAwesomeIcon
-                icon={faXTwitter}
-                size="2x"
-                className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
-              />
-            </Link>
-            <Link href="https://www.instagram.com/blockpartyorleans/">
-              <FontAwesomeIcon
-                icon={faTiktok}
-                size="2x"
-                className="hover:text-[#a3dabb] transition-all duration-200 ease-in-out"
-              />
-            </Link> */}
           </div>
         </div>
 
         <div>
-          <h2 className=" font-bison text-[1.5rem] mb-[1rem]  block lg:hidden">
-            Liens utiles
-          </h2>
-          <div className="flex flex-col gap-[1rem]">
+          <h2 className=" font-bison text-[1.5rem] mb-[1rem]">Pages du site</h2>
+          <div className="flex flex-col lg:flex-row gap-[0.5rem] lg:gap-[1rem]">
             <Link href="/">
               <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
                 Accueil
@@ -96,12 +63,17 @@ export default function Footer() {
             </Link>
             <Link href="/infos-pratiques">
               <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
-                Infos Pratique
+                Infos Pratiques
               </h3>
             </Link>
             <Link href="/a-propos">
               <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
                 A Propos
+              </h3>
+            </Link>
+            <Link href="/nos-partenaires">
+              <h3 className="font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
+                Nos Partenaires
               </h3>
             </Link>
             <Link href="/contactez-nous">
@@ -113,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="my-[1rem] lg:my-[0rem]">
-          <div className="flex flex-col gap-[1rem]">
+          <div className="flex flex-col lg:flex-row gap-[0.5rem] lg:gap-[1rem]">
             <Link href="/mentions-legales">
               <h3 className=" font-rubikLight text-[1rem] hover:text-[#a3dabb] transition-all duration-200 ease-in-out">
                 Mentions Légales
@@ -137,7 +109,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <p className="text-[0.8rem] p-[1rem] font-rubikLight text-white text-center bg-[#231f20]">
+      <p className="text-[0.7rem] p-[1rem] font-rubikLight text-white text-center bg-[#231f20]">
         Copyright © 2024 - BlockParty, Orléans - All Rights Reserved
       </p>
     </div>

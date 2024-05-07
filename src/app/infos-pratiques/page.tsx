@@ -1,60 +1,59 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { BackgroundGradientAnimation } from "../components/UI/background-gradient-animation2";
 
 export const metadata: Metadata = {
-  title: "Infos Pratique | BlockParty Festival",
+  title: "Infos Pratiques | BlockParty Festival",
   description: "Festival de musique",
 };
 
 export default function InfosPratque() {
   return (
     <div>
-      <div className="h-[10rem] w-full gradient-bg  flex justify-center items-end">
+      <BackgroundGradientAnimation className="h-[10rem] w-full flex justify-center items-end">
         <h1 className="text-white pt-[2rem] pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
           INFOS PRATIQUES
         </h1>
-        <Image
-          className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
-          src="/images/FRESQUE_LOGO.png"
-          width={1000}
-          height={1000}
-          alt="Fresque logo"
-        />
-      </div>
+      </BackgroundGradientAnimation>
       <div className="bg-[#231f20] h-[3rem] px-[2rem]"></div>
-      <section className="mt-[2rem] flex gap-[2rem] sm:gap-[2rem] px-[1rem] flex-wrap max-w-[50rem] mx-auto">
-        <div className="flex flex-wrap justify-center sm:justify-normal gap-[1.5rem] sm:gap-[2rem] w-full">
+      <section className="mt-[2rem] flex gap-[2rem] sm:gap-[1.5rem] px-[1rem] flex-wrap max-w-[50rem] mx-auto">
+        <div className="flex flex-col justify-center items-center w-full">
+          <h2 className="font-bison text-[2rem]">22 juin 2024</h2>
+          <p className="pt-[1rem]">
+            Adresse :{" "}
+            <span className=" font-rubikMedium">
+              4 rue André Dessaux, 45400 Fleury-les-Aubrais
+            </span>{" "}
+          </p>
+        </div>
+        <div className="flex flex-wrap justify-center sm:justify-normal gap-[1.5rem] sm:gap-[5rem] w-full">
           <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
-            <h2 className="font-bison text-[2rem]">
-              Horaires le 22 juin 2024 :
-            </h2>
-            <p>
-              Ouverture du festival :{" "}
-              <span className=" font-rubikMedium">14h00</span>{" "}
-            </p>
-            <p>
-              Fermeture du festival :{" "}
-              <span className=" font-rubikMedium">1h00</span>{" "}
-            </p>
+            <h2 className="font-bison text-[2rem]">Comment venir :</h2>
             <p className="pt-[1rem]">
-              Parking : <span className=" font-rubikMedium">Adresse</span>{" "}
+              <span className=" font-rubikMedium">Transport en commun : </span>{" "}
+              Ligne 1, Ligne 45, arrêt Libération + Ligne de nuit de{" "}
+              <span className=" font-rubikMedium">00h30 à 4h30</span> depuis
+              l&apos;arrêt Libération
+            </p>
+
+            <p className="">
+              <span className=" font-rubikMedium">A vélo : </span>
+              Parking à vélo sur place
             </p>
             <p className="">
-              Transport : <span className=" font-rubikMedium">Adresse</span>
+              <span className=" font-rubikMedium">Voiture : </span>Pensez à
+              covoiturer
             </p>
-            <p className="">Parking à vélo</p>
+            <p className="">
+              <span className=" font-rubikMedium">A pied : </span>
+              Un peu de sport avant le réconfort
+            </p>
             <p className="pt-[1rem] mb-3 font-rubikMedium">
               Toilette et point d&apos;eau sur place.
             </p>
-            <a
-              href="/images/MONO_BLANC.png"
-              download={true}
-              className="text-[1rem] font-rubikMedium text-[#fa798f] underline hover:text-[#6bb68b] transition-all duration-200 ease-in-out mt-[2rem]"
-            >
-              Télécharger la plaquette d&apos;informations
-            </a>
           </div>
+
           <div className="sm:flex-1 font-rubikLight text-center sm:text-left">
             <h2 className="font-bison text-[2rem]">Tarifs :</h2>
             <p>
@@ -77,9 +76,18 @@ export default function InfosPratque() {
             </p>
           </div>
         </div>
+        <a
+          href="/images/MONO_BLANC.png"
+          download={true}
+          className="text-[1rem] font-rubikMedium text-[#fa798f] underline hover:text-[#6bb68b] transition-all duration-200 ease-in-out mx-auto"
+        >
+          Télécharger la plaquette d&apos;informations
+        </a>
         <div className="flex flex-col gap-[1rem] justify-start sm:gap-[1rem] h-full">
           <div className=" font-rubikLight text-center sm:text-left">
-            <h2 className="font-bison text-[2rem] mb-3">Le Moule à Gaufre :</h2>
+            <h2 className="font-bison text-[2rem] mb-3">
+              Le Moule à Gaufres :
+            </h2>
             <p className="text-justify font-rubikLight">
               Le site choisi pour accueillir le festival, le Moule à Gaufres,
               ancienne usine à tabac, représente désormais un lieu emblématique

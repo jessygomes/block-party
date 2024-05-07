@@ -28,7 +28,7 @@ export default function Toast() {
     <Link href="https://www.lastrolabe.org/agenda/" target="_blank">
       <aside
         ref={asideRef}
-        className={`fixed cursor-pointer flex gap-1 items-center justify-center flex-col bottom-6 right-2 sm:bottom-5 sm:right-5 w-[8rem] h-[2rem] lg:w-[8rem] lg:h-[3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-2xl shadow-2xl focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]  ${
+        className={`fixed cursor-pointer flex gap-1 items-center justify-center flex-col bottom-6 right-2 sm:bottom-5 sm:right-5 w-[8rem] h-[2rem] lg:w-[8rem] lg:h-[3rem] bg-gradient-to-r from-[#a3dabb] to-[#6bb68b] rounded-xl shadow-2xl focus:outline-none focus:ring-2 focus:ring-[#fa798f] transition-all duration-300 ease-in-out hover:from-[#fa798f] hover:to-[#f8637c] hover:ring-2 hover:ring-[#ff5773]  ${
           isVisible ? "slide-in" : "slide-out"
         }`}
       >

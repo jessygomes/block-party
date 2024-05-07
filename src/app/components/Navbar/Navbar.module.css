@@ -48,11 +48,11 @@
   margin: 0 1rem;
 }
 .nav__item:hover {
-  filter: drop-shadow(5px 10px 1px #a3dabb);
+  filter: drop-shadow(5px 10px 1px #a3dabbbc);
   color: #ffffff;
 }
 .nav__item.activeLink {
-  filter: drop-shadow(5px 5px 1px #a3dabb);
+  filter: drop-shadow(5px 5px 1px #a3dabbbc);
 }
 
 @media screen and (max-width: 800px) {

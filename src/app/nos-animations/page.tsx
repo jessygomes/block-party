@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { BackgroundGradientAnimation } from "../components/UI/background-gradient-animation2";
 
 export const metadata: Metadata = {
   title: "Nos Animations | BlockParty Festival",
@@ -10,18 +11,11 @@ export const metadata: Metadata = {
 export default function NosAnimations() {
   return (
     <div>
-      <div className="h-[10rem] w-full gradient-bg  flex justify-center items-end">
+      <BackgroundGradientAnimation className="h-[10rem] w-full flex justify-center items-end">
         <h1 className="text-white pt-[2rem] pb-[1rem] text-[2rem] sm:text-[3rem] font-bison">
           NOS ANIMATIONS
         </h1>
-        <Image
-          className="absolute w-full h-auto mx-auto lg:w-full lg:h-auto opacity-30"
-          src="/images/FRESQUE_LOGO.png"
-          width={1000}
-          height={1000}
-          alt="Fresque logo"
-        />
-      </div>
+      </BackgroundGradientAnimation>
       <div className="bg-[#231f20] h-[3rem] px-[2rem]">*</div>
       <section className="mt-[2rem] flex gap-[0.5rem] lg:gap-[2rem] px-[1rem] flex-wrap justify-center items-center max-w-[50rem] mx-auto">
         <div className="flex-1 flex flex-col gap-[2rem] justify-center">
@@ -54,7 +48,7 @@ export default function NosAnimations() {
             Allez à la découverte des artistes locaux à travers les stands
             d&apos;expositions, déguster une bonne boisson sous le soleil depuis
             l&apos;espace détente, s&apos;ambiancer sur les sets des DJs qui
-            envoient du gros son. Tellement de scénarios possibles drant
+            envoient du gros son. Tellement de scénarios possibles durant
             l&apos;après-midi du premier battement.{" "}
             <span className=" font-bold">
               Une chose est sûr, vous vivrez un moment fort et surtout unique au
