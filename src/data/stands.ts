@@ -11,7 +11,8 @@ const stands = [
     id: 2,
     insta: "https://www.instagram.com/bellenippeshop/",
     title: "Belle Nippe",
-    content: "Création de vêtement à la main, pièce unique ou série limitée.",
+    content:
+      "Belle Nippe est une marque de vêtement française sur-mesure. Elle propose des pièces uniques ou des pièces en séries limités. Avec un esprit audaciaux et novateur, Belle Nippe veut montrer, à travers ses créations, une identité rare mais identifiable.",
     image: "/images/stands/bnBlackLogo.png",
   },
   {

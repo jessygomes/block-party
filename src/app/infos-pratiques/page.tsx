@@ -76,13 +76,13 @@ export default function InfosPratque() {
             </p>
           </div>
         </div>
-        <a
+        {/* <a
           href="/images/MONO_BLANC.png"
           download={true}
           className="text-[1rem] font-rubikMedium text-[#fa798f] underline hover:text-[#6bb68b] transition-all duration-200 ease-in-out mx-auto"
         >
           Télécharger la plaquette d&apos;informations
-        </a>
+        </a> */}
         <div className="flex flex-col gap-[1rem] justify-start sm:gap-[1rem] h-full">
           <div className=" font-rubikLight text-center sm:text-left">
             <h2 className="font-bison text-[2rem] mb-3">
