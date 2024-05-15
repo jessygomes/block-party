@@ -151,7 +151,7 @@ export default function NosPartenaires() {
           </div>
           <div className="w-[45%] h-[8rem] sm:w-[30%] sm:h-[10rem] flex justify-center items-center p-2 rounded-lg shadow-2xl hover:shadow-none transition-all ease-in-out">
             <Link
-              href="https://www.linkedin.com/company/only-one-way/"
+              href="https://www.instagram.com/onlyoneway.music?igsh=dGhmbjZibGtnaGpr"
               target="_blank"
             >
               <Image
