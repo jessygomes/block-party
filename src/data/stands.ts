@@ -17,15 +17,8 @@ const stands = [
   },
   {
     id: 3,
-    insta: "",
+    insta: "https://www.instagram.com/fiveveur?igsh=ajFzODk3aWNyN2U=",
     title: "Fiveur",
-    content: "",
-    image: "",
-  },
-  {
-    id: 4,
-    insta: "",
-    title: "Kill Your God / Purgatory",
     content: "",
     image: "",
   },
@@ -91,25 +84,27 @@ const stands = [
     title: "Minta Custom",
     content:
       "Minta Custom, customisatrice de basket depuis 5 ans, je crée des designs personnalisés en fonction des demandes des clients, les customs sont réalisés à la main et avec une peinture spécialisée pour le cuir. J'ai réalisé plusieurs expositions sur Orléans, et j'ai eu la chance de faire un custom pour DJ Snake qu'il a porté sur scène pendant un festival au Japon.",
-    image: "",
+    image: "/images/partenaires/minta.png",
   },
   {
     id: 13,
     insta: "https://www.instagram.com/pezer.97/",
     title: "Pezer",
-    content: "",
-    image: "",
+    content:
+      "Née à la fin des années 90, Pezer est un Artiste/Graffeur originaire d’Orléans. Il découvre le graffiti vers ses 12 ans à travers les magazines et en explorant les vois ferrés locales. Au fil des années, son style se perfectionne ainsi que ses supports d’expressions. Murs, Toiles ou encore tatouage, aujourd’hui, il étend son art sur autant de supports que possible tout en conservant son style et ses lettrages inspirés du graffiti.",
+    image: "/images/partenaires/Pezer.png",
   },
   {
     id: 14,
     insta: "https://www.instagram.com/radio_campus_orleans/",
     title: "Radio Campus",
-    content: "",
+    content:
+      "Radio Campus Orléans est une station de radio associative de type loi 1901 fondée en 1994 par cinq étudiants du campus d’Orléans soucieux d’apporter une alternative musicale, informative, culturelle, étudiante et participative sur la bande à Orléans et sur la bande FM. Ses statuts sont déposés à la préfecture d’Orléans. Aujourd’hui, Radio Campus émet en FM, en DAB+ (radio numérique terrestre) et sur Internet en streaming et à la carte, toute l’année.",
     image: "/images/partenaires/Radio Campus Orleans noir.png",
   },
   {
     id: 15,
-    insta: "",
+    insta: "https://www.instagram.com/scienk_art?igsh=dG5lcm0zN3Yxdzhl",
     title: "Scienck Art",
     content: "",
     image: "",
@@ -120,12 +115,12 @@ const stands = [
     title: "Underground Social Club",
     content:
       "Association d'artistes multi disciplines, notre but étant de pouvoir créer des expositions/événements pour partager, rassembler et créer des moments uniques. Quand le graffiti se mélange avec des sculpteurs, plasticiens, la musique et tout ce qui est possible !!",
-    image: "/images/stands/under.png",
+    image: "/images/stands/social.jpeg",
   },
   {
     id: 17,
     insta: "https://www.instagram.com/ztem.studio/",
-    title: "ZTEM Studio",
+    title: "ZTEM",
     content:
       "ZTEM est une créatrice de mode engagée et éco-responsable. Elle mêle des looks déstructurés en utilisant uniquement des matériaux de seconde-main, à des esthétiques plus lisses grâce à sa technique et à la qualité des tissus utilisés, ce qui permet aux pièces créées d’allier originalité et durabilité.",
     image: "/images/stands/logo.png",

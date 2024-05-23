@@ -39,7 +39,13 @@ export default function NosAnimations() {
             <br /> <br /> Dans un cadre authentique, laissez-nous vous embarquer
             par la culture qui à traverser les époques (et oui, 50 ans
             d&apos;existence), qui a su évoluer et séduire le plus grand nombre.
-            Mais revenons au source, qu&apos;est-ce qu&apos;une block party ?
+            Mais revenons au source, qu&apos;est-ce qu&apos;une block party ?{" "}
+            <Link
+              href="https://www.instagram.com/reel/C6TsnJoq-wV/?igsh=c2Mxb2xzemY3Mjhi"
+              className="underline font-bold hover:text-[#6bb68b] transition-all duration-300 ease-in-out"
+            >
+              Une block party, c&apos;est ça ! <span className="">🎥</span>
+            </Link>
           </p>
           <h3 className="font-bison text-[1.3rem] lg:text-[1.5rem]">
             &quot;Et le 22 juin, qu&apos;est-ce qu&apos;on peut faire ?&quot;

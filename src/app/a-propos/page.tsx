@@ -60,7 +60,6 @@ export default function APropos() {
               culturelle en offrant un espace où chacun est le bienvenu, quel
               que soit son âge, son origine ou son statut social.
             </span>{" "}
-            renforcer les
             <br /> <br /> Au fil des décennies, les Block Parties ont évolué
             pour devenir des symboles de résilience, de créativité et
             d&apos;unité au sein de quartiers urbains. Ils continuent
