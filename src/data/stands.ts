@@ -84,7 +84,7 @@ const stands = [
     title: "Minta Custom",
     content:
       "Minta Custom, customisatrice de basket depuis 5 ans, je crée des designs personnalisés en fonction des demandes des clients, les customs sont réalisés à la main et avec une peinture spécialisée pour le cuir. J'ai réalisé plusieurs expositions sur Orléans, et j'ai eu la chance de faire un custom pour DJ Snake qu'il a porté sur scène pendant un festival au Japon.",
-    image: "/images/partenaires/minta.png",
+    image: "/images/stands/minta.png",
   },
   {
     id: 13,
@@ -92,7 +92,7 @@ const stands = [
     title: "Pezer",
     content:
       "Née à la fin des années 90, Pezer est un Artiste/Graffeur originaire d’Orléans. Il découvre le graffiti vers ses 12 ans à travers les magazines et en explorant les vois ferrés locales. Au fil des années, son style se perfectionne ainsi que ses supports d’expressions. Murs, Toiles ou encore tatouage, aujourd’hui, il étend son art sur autant de supports que possible tout en conservant son style et ses lettrages inspirés du graffiti.",
-    image: "/images/partenaires/Pezer.png",
+    image: "/images/stands/Pezer.png",
   },
   {
     id: 14,
