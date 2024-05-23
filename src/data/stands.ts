@@ -20,7 +20,7 @@ const stands = [
     insta: "https://www.instagram.com/fiveveur?igsh=ajFzODk3aWNyN2U=",
     title: "Fiveur",
     content: "",
-    image: "",
+    image: "/images/stands/fiveur.png",
   },
   {
     id: 5,
