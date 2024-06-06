@@ -28,7 +28,7 @@ const stands = [
     insta: "https://www.instagram.com/hiden_sanshi/",
     title: "Hiden",
     content:
-      "Hiden, danseur hip-hop spécialisé dans l'improvisation (freestyle), motivé par la grande liberté qu'offre cet art, je souhaite pouvoir véhiculé mes propres messages et émotions à travers mes mouvements.",
+      "Hiden, danseur hip-hop spécialisé dans l'improvisation (freestyle), motivé par la grande liberté qu'offre cet art, je souhaite pouvoir véhiculer mes propres messages et émotions à travers mes mouvements.",
     image: "/images/stands/hiden.png",
   },
   {
