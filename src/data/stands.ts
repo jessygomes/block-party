@@ -19,8 +19,17 @@ const stands = [
     id: 3,
     insta: "https://www.instagram.com/fiveveur?igsh=ajFzODk3aWNyN2U=",
     title: "Fiveur",
-    content: "",
+    content:
+      "L’association Fiveveur Academy est une association sportive et culturelle offrant la possibilité à toutes et à tous de s'épanouir dans le sport tout en enseignant des valeurs sociales. Tout est né d'une passion pour le sport et d'un intérêt pour le milieu associatif. Tineny Coulibaly, entrepreneur aguerri, a suscité une ferveur autour de son concept Fiveur street : tournoi de Five entre adultes. En vue de l'engouement, surtout auprès des plus jeunes, l'idée de déployer l'activité a commencé à se structurer.",
     image: "/images/stands/fiveur.png",
+  },
+  {
+    id: 4,
+    insta: "https://www.instagram.com/hiden_sanshi/",
+    title: "Hiden",
+    content:
+      "Hiden, danseur hip-hop spécialisé dans l'improvisation (freestyle), motivé par la grande liberté qu'offre cet art, je souhaite pouvoir véhiculé mes propres messages et émotions à travers mes mouvements.",
+    image: "/images/stands/hiden.png",
   },
   {
     id: 5,
